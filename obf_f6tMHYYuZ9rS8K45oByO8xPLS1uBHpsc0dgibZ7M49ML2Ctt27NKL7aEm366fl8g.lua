@@ -1,117 +1,860 @@
-                                                                                 local Rayfield=       
-                                                                        loadstring(game:HttpGet(                        
-                                                                    "https://sirius.menu/rayfield"))();local webhookUrl=          
-                                                                                                                                        
-                                                                                                                                          
-                                                                                                                                            
-                                                                                                                                              
-                                                                                                                                                
-                                                                                                                                                  
-                                                                                                                                                    
-                                                                                                                                                      
-                                                                                                                                                        
-                                                                                                                                                          
-                                                                                                                                                            
-                                                                                                                                                            
-                                                                                                                                                              
-                                                                                                                                                                
-                                                                                                                                                                  
-                                                                                                                                                                    
-                                          "https://discord.com/api/webhooks/1143993653782659173/Qhix8m4ao6yLLHl_7MR4BMOAJhmlTB3-nR1prO8Fje1IPrUgBkQuvWRWQv2dIUuQSeVc" 
-                                          ;local savedKeys={"EmptycodeX.MadeThis","lakks882","k1sG93p","7JdA5fG","pBq9eR6","s2tM4vE","wR8cP5z","xY3zK7b","fN6uG2v",   
-                                        "mC3jV9r","hD5wS1x","qL4rT8k","aZ7yF6d","tV2pW9l","oH8nR3s","eB1mD4c","iX6tQ9g","jL3kZ7f","gP5wC2v","uM4vT8n","bS1xW7z",        
-                                        "cF6uG3j","dK9rV5m","rT8kH7x","sF2vN4w","wC7zX6b","xQ9gZ3y","zJ4fL8k" --[[==============================]],"kS1xG6v","qV5mB2c",   
-                                        "pW7zE4u","cD3jT9r","mR6tK1s","nF2vP8w","rX7bZ5y","yG4fV6j" --[[============================================]],"aB1cW9z",         
-                                        "fE6uH3k","dN9rQ5m","hT8kM7x","jL3pX2v","gC7zB4w",      --[[======================================================]]"uK1sE9y",      
-                                      "iG4fR6j","wB2cZ7v","vP8wX5z","xQ9gT3j","zJ4kC6b",    --[[==========================================================]]"bV6mD2s",        
-                                      "cW7zF5x","nH3kM8u","dT9rN1c","kX2vP7w","pZ5yG6j",  --[[==============================================================]]"rB4wL8k",      
-                                      "lS1xV9m","mE6uR3s","jT9rQ1c","uH3kM7x","xX5zF4v",  --[[================================================================]]"yG6jC2b",      
-                                      "aW9zV8m","sE4uB7x","dN1cR6j","cM7xP3j","vT9rG5m",  --[[==================================================================]]"fQ2bW6c",    
-                                      "rL8kZ5y","bD4vX7z","kF5xH9j","zC6bN2s","hM8uT3j",  --[[==================================================================]]"jX5zQ7b",        
-                                    "wB7xV4u","xR6jF1c","gP3jM7x","lG5mC9r","cW6cN4w",    --[[====================================================================]]"mZ5yH8k",    
-                    "nX7zD6b","dH9jT1s","kQ7bL4w","pV4uS6z","rF1cW3j","tC9rN6m","vN4wH7x" --[[====================================================================]],"wD6bM2s",     
-              "xT1sG8v","yL4wB7z","aS6zX3y","bW3jZ9m","cN6mH7x","dH8vC1s","eG5xM4w",      --[[======================================================================]]"fB7zD9y",    
-            "gX3yT6j","hZ9mW1c","iH7xQ4v","jM2sL6b","kT1sS8z","lG4wF7j","mB7zX3y",        --[[======================================================================]]"nW1cZ9m",    
-          "oS6zT8j","pD9yN4w","qT6jH2s","rX3yB5x","sZ9mV1c","tQ4vL7z","uM2sS8j","vF7jG5m" --[[======================================================================]],"wX3yC9r",   
-        "xZ9mW1c","yT6jN4w","zD9yH2s","aB5xM7z","bV1cF8j","cS8jX3y","dG5mZ9w","eC9rL2s",  --[[======================================================================]]"fW1cP7z",    
-        "gN4wH6j","hH2sQ9y","iX3yT5m","jZ9wG7j","kL2sB8c","lP7zV6x","mM6jF4v","nQ9yW2c",  --[[======================================================================]]"oT5mN3w",    
-      "pG7jH8k","qB8cZ1s","rV6xL4w","sF4vP2b","tW2cC7z","uN3wH5x","vH8kQ1s","wZ1sM6j",    --[[======================================================================]]"xL4wT5m",    
-      "yP2bN7z","zC7zG6x"};local Window=Rayfield:CreateWindow({Name=                        --[[==================================================================]]                
-      "EmptycodeX PremiumHub V1 - Pop It Trading!",LoadingTitle="Loading Data",             --[[================================================================]]LoadingSubtitle=  
-    "by EmptycodeX",ConfigurationSaving={Enabled=true,FolderName=nil,FileName="Big Hub"},   --[[==============================================================]]Discord={Enabled= 
-    true,Invite="https://discord.gg/XZJgM6Ds65",RememberJoins=true},KeySystem=true,           --[[==========================================================]]KeySettings={Title= 
-    "EmptycodeX Security",Subtitle="Key System",Note="Contact EmptycodeX for the Key.",FileName --[[====================================================]]="Key Below!",SaveKey=  
-    false,GrabKeyFromSite=false,Key=savedKeys}});local function generateRandomKey(length)local    --[[==============================================]]characters=               
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";local key="";for _=1,length do   --[[====================================]]local randomIndex=math.random 
-    (1, #characters);key=key   .. characters:sub(randomIndex,randomIndex) ;end table.insert(savedKeys,key --[[========================]]);end local function                  
-    sendDiscordMessage(content,color)local postData={content=content,embeds={{color=color}}};game.HttpService:PostAsync(webhookUrl,game.HttpService:JSONEncode(postData),   
-  Enum.HttpContentType.ApplicationJson);end for i=1,200 do generateRandomKey(16);end print("Claves generadas:",table.concat(savedKeys,", "));local inputKey="lakks882";if 
-   table.find(savedKeys,inputKey) then table.remove(savedKeys,table.find(savedKeys,inputKey));sendDiscordMessage("Clave utilizada: "   .. inputKey ,16711680);          
-  sendDiscordMessage("Claves restantes: "   .. table.concat(savedKeys,", ") ,65280);else sendDiscordMessage("Clave inválida",16711680);end local Tab=Window:CreateTab(    
-  "Main V2",4483362458);local itemName="";local Input=Tab:CreateInput({Name="ItemName Buy",PlaceholderText="Enter item name",RemoveTextAfterFocusLost=false,Callback=     
-  function(Text)Rayfield:Notify({Title="Item Name",Content="Loading Item...",Duration=6.5,Image=4483362458,Actions={Ignore={Name="Continue :v!!!",Callback=function()     
-  print("The user tapped Okay!");end}}});itemName=Text;end});local BuyButton=Tab:CreateButton({Name="Buy Item",Callback=function()Rayfield:Notify({Title=                 
-  "Bought Item Succesful!",Content="Item Bought.",Duration=6.5,Image=4483362458,Actions={Ignore={Name="Coems!!!",Callback=function()print("The user tapped Okay!");end}}} 
-  );if (itemName~="") then local args={[1]=itemName};game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));end end});local BuyButton=Tab 
-  :CreateButton({Name="Drop Item",Callback=function()Rayfield:Notify({Title="Dropped Item Succesful!",Content="Dropped Item.",Duration=6.5,Image=4483362458,Actions={     
-  Ignore={Name="Coems!!!",Callback=function()print("The user tapped Okay!");end}}});if (itemName~="") then local args={[1]=itemName};game:GetService("ReplicatedStorage") 
-  .RemoteEvents.Drop:FireServer(unpack(args));end end});local BuyButton=Tab:CreateButton({Name="Sell Item",Callback=function()Rayfield:Notify({Title=                     
-  "Selled Item Succesful!",Content="Selled Item.",Duration=6.5,Image=4483362458,Actions={Ignore={Name="Coems!!!",Callback=function()print("The user tapped Okay!");end}}}); 
-  if (itemName~="") then local args={[1]=itemName};game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args));end end});local BuyButton=Tab:           
-  CreateButton({Name="Equip Item",Callback=function()Rayfield:Notify({Title="Equipped Item Succesful!",Content="Item Equipped.",Duration=6.5,Image=4483362458,Actions={     
-  Ignore={Name="Coems!!!",Callback=function()print("The user tapped Okay!");end}}});if (itemName~="") then local args={[1]=itemName};game:GetService("ReplicatedStorage").  
-  RemoteEvents.Equip:FireServer(unpack(args));end end});local activeToggles={};local function RepeatRemote(remoteFunction)while activeToggles[remoteFunction] do if (       
-  itemName~="") then local args={[1]=itemName};remoteFunction:FireServer(unpack(args));end wait(1);end end local function ToggleCallback(remoteFunction,Value)if Value then 
-   activeToggles[remoteFunction]=true;RepeatRemote(remoteFunction);else activeToggles[remoteFunction]=false;end end local AutoBuyToggle=Tab:CreateToggle({Name="Auto Buy",  
-  CurrentValue=false,Flag="AutoBuyToggle",Callback=function(Value)Rayfield:Notify({Title="AutoBuy Item Succesful!",Content="Toggle: ON",Duration=6.5,Image=4483362458,      
-  Actions={Ignore={Name="Coems!!!",Callback=function()print("The user tapped Okay!");end}}});ToggleCallback(game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash,  
-  Value);end});local AutoDropToggle=Tab:CreateToggle({Name="Auto Drop",CurrentValue=false,Flag="AutoDropToggle",Callback=function(Value)Rayfield:Notify({Title=             
-  "AutoDrop Item Succesful!",Content="Toggle: ON",Duration=6.5,Image=4483362458,Actions={Ignore={Name="Coems!!!",Callback=function()print("The user tapped Okay!");end}}}); 
-  ToggleCallback(game:GetService("ReplicatedStorage").RemoteEvents.Drop,Value);end});local AutoSellToggle=Tab:CreateToggle({Name="Auto Sell",CurrentValue=false,Flag=       
-  "AutoSellToggle",Callback=function(Value)Rayfield:Notify({Title="AutoSell Item Succesful!",Content="Toggle: ON",Duration=6.5,Image=4483362458,Actions={Ignore={Name=      
-  "Coems!!!",Callback=function()print("The user tapped Okay!");end}}});ToggleCallback(game:GetService("ReplicatedStorage").RemoteEvents.Sell,Value);end});local           
-  AutoEquipToggle=Tab:CreateToggle({Name="Auto Equip",CurrentValue=false,Flag="AutoEquipToggle",Callback=function(Value)Rayfield:Notify({Title=                           
-  "AutoEquip Item Succesful!",Content="Toggle: ON",Duration=6.5,Image=4483362458,Actions={Ignore={Name="Coems!!!",Callback=function()print("The user tapped Okay!");end}} 
-    });ToggleCallback(game:GetService("ReplicatedStorage").RemoteEvents.Equip,Value);end});local Tab=Window:CreateTab("New Items",4483362458);local Section=Tab:          
-    CreateSection("New Items");local Button=Tab:CreateButton({Name="Buy Lil Dude",Callback=function()local args={[1]="Lil Dude Real"};game:GetService("ReplicatedStorage" 
-    ).RemoteEvents.BuyItemCash:FireServer(unpack(args));end});local Button=Tab:CreateButton({Name="Buy Lil Hacker",Callback=function()local args={[1]="Lil Dude"};game:   
-    GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));end});local Button=Tab:CreateButton({Name="Buy Puzzle Key",Callback=function()local 
-       args={[1]="Puzzle Key"};game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));end});local Button=Tab:CreateButton({Name=        
-      "Buy Puzzler Head",Callback=function()local args={[1]="Puzzler Head"};game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));end} 
-      );local Section=Tab:CreateSection("Demogorgan Items");local Button=Tab:CreateButton({Name="Buy Demogorgan Kawaii",Callback=function()local args={[1]=             
-        "Demogorgan Kawaii"};game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));end});local Button=Tab:CreateButton({Name=          
-        "Buy Demogorgan",Callback=function()local args={[1]="Demogorgan"};game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));end}); 
-        local Section=Tab:CreateSection("AutoBuy New Items");local isBuying=false;local Toggle=Tab:CreateToggle({Name="AutoBuy Lil Dude",CurrentValue=false,Flag=       
-          "Toggle1",Callback=function(Value)local args={[1]="Lil Dude Real"};if Value then isBuying=true;while isBuying do game:GetService("ReplicatedStorage").      
-            RemoteEvents.BuyItemCash:FireServer(unpack(args));wait(1);end else isBuying=false;end end});local Toggle=Tab:CreateToggle({Name="AutoBuy Lil Hacker",     
-              CurrentValue=false,Flag="Toggle1",Callback=function(Value)local args={[1]="Lil Dude"};if Value then isBuying=true;while isBuying do game:GetService(    
-                "ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));wait(1);end else isBuying=false;end end});local Toggle=Tab:CreateToggle({Name= 
-                  "AutoBuy Puzzler Head",CurrentValue=false,Flag="Toggle3",Callback=function(Value)local args={[1]="Puzzler Head"};if Value then isBuying=true;     
-                      while isBuying do game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args));wait(1);end else isBuying=false;end  
-                                  end});local Toggle=Tab:CreateToggle({Name="AutoBuy Puzzle Key",CurrentValue=false,Flag="Toggle2",Callback=function(Value)local    
-                                      args={[1]="Puzzle Key"};if Value then isBuying=true;while isBuying do game:GetService("ReplicatedStorage").RemoteEvents.      
-                                      BuyItemCash:FireServer(unpack(args));wait(1);end else                 isBuying=false;end end});local Tab=Window:CreateTab(    
-                                      "(FE) Troll Stuff",4483362458);local Toggle=Tab:CreateToggle(         {Name="120 Fov",CurrentValue=false,Flag="Toggle1",    
-                                      Callback=function(Value)Rayfield:Notify({Title="Succes!",             Content="If u run this will Revert",Duration=6.5,     
-                                      Image=4483362458,Actions={Ignore={Name="Sure Buddy!",Callback         =function()print("The user tapped Okay!");end}}});if  
-                                      Value then game:GetService("Workspace").CurrentCamera.                  FieldOfView=120;else game:GetService("Workspace").  
-                                      CurrentCamera.FieldOfView=70;end end});local Slider=Tab:                CreateSlider({Name="Player Speed",Range={0,100},    
-                                      Increment=10,Suffix="%",CurrentValue=50,Flag="SpeedSlider",             Callback=function(Value)local player=game.Players 
-                                        .LocalPlayer;local speed=(Value/100) * 50 ;player.Character           .Humanoid.WalkSpeed=speed;end});local Toggle=Tab: 
-                                        CreateToggle({Name="X-Ray Toggle",CurrentValue=false,Flag=              "XRayToggle",Callback=function(Value)local      
-                                        player=game.Players.LocalPlayer;local xRayValue=player:                 FindFirstChild("XRay");if xRayValue then      
-                                        xRayValue.Value=Value;end end});local player=game.Players               .LocalPlayer;local function ResetPlayer()     
-                                        local humanoidRootPart=player.Character:FindFirstChild(                   "HumanoidRootPart");local startPosition=  
-                                        Vector3.new(0,5,0);if humanoidRootPart then                               humanoidRootPart.CFrame=CFrame.new(       
-                                          startPosition);end end local Troll=Tab:CreateButton({                     Name="FE Touch Fling",Callback=       
-                                          function()loadstring(game:HttpGet(                                                                          
-                                                                                                                                                  
-                                                                                                                                          
-                                                                                            
-                                                                                          
-                                                                                        
-                                                                                  
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.9.15) ~  Much Love, Ferib 
 
+]]--
 
---------------------------------------------------------------------------------
-"https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt",true))();end});local reset=Tab:CreateButton({Name="AutoReset",Callback=function()ResetPlayer();end});local Admin=Tab:CreateButton({Name="Infinite Yield",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();end});local player=game.Players.LocalPlayer;local ragdollActive=false;local RagdollKeybind=Tab:CreateKeybind({Name="Ragdoll Keybind",CurrentKeybind="R",HoldToInteract=false,Flag="RagdollKeybind",Callback=function(Keybind)ragdollActive= not ragdollActive;local humanoid=player.Character and player.Character:FindFirstChild("Humanoid") ;if humanoid then if ragdollActive then humanoid:ChangeState(Enum.HumanoidStateType.Physics);else humanoid:ChangeState(Enum.HumanoidStateType.Seated);end end end});local ESPToggle=Tab:CreateToggle({Name="ESP Toggle",CurrentValue=false,Flag="ESPToggle",Callback=function(Value)Rayfield:Notify({Title="ESP",Content="Every new Join u Habe to Re-Activate",Duration=6.5,Image=4483362458,Actions={Ignore={Name="Sure Buddy!",Callback=function()print("The user tapped Okay!");end}}});local player=game.Players.LocalPlayer;local ESPEnabled=false;local function UpdateESP()for _,otherPlayer in ipairs(game.Players:GetPlayers()) do if ((otherPlayer~=player) and otherPlayer.Character and otherPlayer.Character:FindFirstChild("HumanoidRootPart")) then local rootPart=otherPlayer.Character.HumanoidRootPart;if ESPEnabled then local espBox=Instance.new("BoxHandleAdornment");espBox.Size=rootPart.Size + Vector3.new(0.2,0.2,0.2) ;espBox.Adornee=rootPart;espBox.Color3=Color3.fromRGB(255,0,0);espBox.Transparency=0.5;espBox.ZIndex=0;espBox.Parent=rootPart;local espName=Instance.new("BillboardGui");espName.Size=UDim2.new(0,200,0,50);espName.Adornee=rootPart;espName.StudsOffset=Vector3.new(0,3,0);espName.AlwaysOnTop=true;espName.MaxDistance=100;espName.Name="NameTag";espName.Parent=rootPart;local espText=Instance.new("TextLabel");espText.Size=UDim2.new(1,0,1,0);espText.BackgroundTransparency=1;espText.Text=otherPlayer.Name;espText.Font=Enum.Font.SourceSansBold;espText.TextColor3=Color3.new(1,1,1);espText.TextStrokeTransparency=0.5;espText.TextStrokeColor3=Color3.new(0,0,0);espText.TextSize=20;espText.Parent=espName;local distance=(player.Character.HumanoidRootPart.Position-rootPart.Position).Magnitude;if (distance<10) then espText.TextColor3=Color3.fromRGB(0,255,0);end else for _,obj in ipairs(rootPart:GetChildren()) do if (obj:IsA("BoxHandleAdornment") or obj:IsA("BillboardGui")) then obj:Destroy();end end end end end end ESPEnabled=Value;UpdateESP();end});local Button=Tab:CreateButton({Name="Fly (Reset to Disable)",Callback=function()local main=Instance.new("ScreenGui");local Frame=Instance.new("Frame");local up=Instance.new("TextButton");local function styleButton(up)button.BackgroundColor3=Color3.fromRGB(169,169,169);button.TextColor3=Color3.new(1,1,1);button.Font=Enum.Font.Cartoon;button.TextSize=18;end local down=Instance.new("TextButton");local function styleButton(down)button.BackgroundColor3=Color3.fromRGB(169,169,169);button.TextColor3=Color3.new(1,1,1);button.Font=Enum.Font.Cartoon;button.TextSize=18;end local onof=Instance.new("TextButton");local TextLabel=Instance.new("TextLabel");local plus=Instance.new("TextButton");local function styleButton(plus)button.BackgroundColor3=Color3.fromRGB(169,169,169);button.TextColor3=Color3.new(1,1,1);button.Font=Enum.Font.Cartoon;button.TextSize=18;end local speed=Instance.new("TextLabel");local function styleButton(speed)button.BackgroundColor3=Color3.fromRGB(169,169,169);button.TextColor3=Color3.new(1,1,1);button.Font=Enum.Font.Cartoon;button.TextSize=18;end local mine=Instance.new("TextButton");local function styleButton(mine)button.BackgroundColor3=Color3.fromRGB(169,169,169);button.TextColor3=Color3.new(1,1,1);button.Font=Enum.Font.Cartoon;button.TextSize=18;end local closebutton=Instance.new("TextButton");local mini=Instance.new("TextButton");local function styleButton(mini)button.BackgroundColor3=Color3.fromRGB(169,169,169);button.TextColor3=Color3.new(1,1,1);button.Font=Enum.Font.Cartoon;button.TextSize=18;end local mini2=Instance.new("TextButton");local function styleButton(mini2)button.BackgroundColor3=Color3.fromRGB(169,169,169);button.TextColor3=Color3.new(1,1,1);button.Font=Enum.Font.Cartoon;button.TextSize=18;end main.Name="main";main.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui");main.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;main.ResetOnSpawn=false;Frame.Parent=main;Frame.BackgroundColor3=Color3.fromRGB(163,255,137);Frame.BorderColor3=Color3.fromRGB(103,221,213);Frame.Position=UDim2.new(0.100320168,0,0.379746825,0);Frame.Size=UDim2.new(0,190,0,57);up.Name="go up";up.Parent=Frame;up.BackgroundColor3=Color3.fromRGB(169,169,169);up.Size=UDim2.new(0,44,0,28);up.Font=Enum.Font.SourceSans;up.Text="Up";up.TextColor3=Color3.fromRGB(0,0,0);up.TextSize=14;down.Name="go down";down.Parent=Frame;down.BackgroundColor3=Color3.fromRGB(169,169,169);down.Position=UDim2.new(0,0,0.491228074,0);down.Size=UDim2.new(0,44,0,28);down.Font=Enum.Font.Cartoon;down.Text="Down";down.TextColor3=Color3.fromRGB(0,0,0);down.TextSize=14;onof.Name="onof";onof.Parent=Frame;onof.BackgroundColor3=Color3.fromRGB(169,169,169);onof.Position=UDim2.new(0.702823281,0,0.491228074,0);onof.Size=UDim2.new(0,56,0,28);onof.Font=Enum.Font.SourceSans;onof.Text="fly";onof.TextColor3=Color3.fromRGB(0,0,0);onof.TextSize=14;TextLabel.Parent=Frame;TextLabel.BackgroundColor3=Color3.fromRGB(169,169,169);TextLabel.Position=UDim2.new(0.469327301,0,0,0);TextLabel.Size=UDim2.new(0,100,0,28);TextLabel.Font=Enum.Font.Cartoon;TextLabel.Text="Remade By EmptycodeX";TextLabel.TextColor3=Color3.fromRGB(0,0,0);TextLabel.TextScaled=true;TextLabel.TextSize=14;TextLabel.TextWrapped=true;plus.Name="plus";plus.Parent=Frame;plus.BackgroundColor3=Color3.fromRGB(169,169,169);plus.Position=UDim2.new(0.231578946,0,0,0);plus.Size=UDim2.new(0,45,0,28);plus.Font=Enum.Font.Cartoon;plus.Text="+";plus.TextColor3=Color3.fromRGB(0,0,0);plus.TextScaled=true;plus.TextSize=14;plus.TextWrapped=true;speed.Name="speed";speed.Parent=Frame;speed.BackgroundColor3=Color3.fromRGB(169,169,169);speed.Position=UDim2.new(0.468421042,0,0.491228074,0);speed.Size=UDim2.new(0,44,0,28);speed.Font=Enum.Font.Cartoon;speed.Text="1";speed.TextColor3=Color3.fromRGB(0,0,0);speed.TextScaled=true;speed.TextSize=14;speed.TextWrapped=true;mine.Name="mine";mine.Parent=Frame;mine.BackgroundColor3=Color3.fromRGB(169,169,169);mine.Position=UDim2.new(0.231578946,0,0.491228074,0);mine.Size=UDim2.new(0,45,0,29);mine.Font=Enum.Font.Cartoon;mine.Text="-";mine.TextColor3=Color3.fromRGB(0,0,0);mine.TextScaled=true;mine.TextSize=14;mine.TextWrapped=true;closebutton.Name="Hide Fly UI";closebutton.Parent=main.Frame;closebutton.BackgroundColor3=Color3.fromRGB(225,25,0);closebutton.Font="Cartoon";closebutton.Size=UDim2.new(0,45,0,28);closebutton.Text="Delete";closebutton.TextSize=20;closebutton.Position=UDim2.new(0,0, -1,27);mini.Name="minimize";mini.Parent=main.Frame;mini.BackgroundColor3=Color3.fromRGB(169,169,169);mini.Font="Cartoon";mini.Size=UDim2.new(0,45,0,28);mini.Text="close";mini.TextSize=20;mini.Position=UDim2.new(0,44, -1,27);mini2.Name="minimize2";mini2.Parent=main.Frame;mini2.BackgroundColor3=Color3.fromRGB(169,169,169);mini2.Font="Cartoon";mini2.Size=UDim2.new(0,45,0,28);mini2.Text="open";mini2.TextSize=20;mini2.Position=UDim2.new(0,44, -1,57);mini2.Visible=false;speeds=10;local speaker=game:GetService("Players").LocalPlayer;local chr=game.Players.LocalPlayer.Character;local hum=chr and chr:FindFirstChildWhichIsA("Humanoid") ;nowe=false;game:GetService("StarterGui"):SetCore("SendNotification",{Title="Fly Gui",Text="ReWorked By EmptycodeX",Icon="rbxthumb://type=Asset&id=5107182114&w=150&h=150"});Duration=5;Frame.Active=true;Frame.Draggable=true;onof.MouseButton1Down:connect(function()if (nowe==true) then nowe=false;speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true);speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics);else nowe=true;for i=1,speeds do spawn(function()local hb=game:GetService("RunService").Heartbeat;tpwalking=true;local chr=game.Players.LocalPlayer.Character;local hum=chr and chr:FindFirstChildWhichIsA("Humanoid") ;while tpwalking and hb:Wait() and chr and hum and hum.Parent  do if (hum.MoveDirection.Magnitude>0) then chr:TranslateBy(hum.MoveDirection);end end end);end game.Players.LocalPlayer.Character.Animate.Disabled=true;local Char=game.Players.LocalPlayer.Character;local Hum=Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController") ;for i,v in next,Hum:GetPlayingAnimationTracks() do v:AdjustSpeed(0);end speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false);speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false);speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming);end if (game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType==Enum.HumanoidRigType.R6) then local plr=game.Players.LocalPlayer;local torso=plr.Character.Torso;local flying=true;local deb=true;local ctrl={f=0,b=0,l=0,r=0};local lastctrl={f=0,b=0,l=0,r=0};local maxspeed=50;local speed=0;local bg=Instance.new("BodyGyro",torso);bg.P=90000;bg.maxTorque=Vector3.new(8999999488,8999999488,8999999488);bg.cframe=torso.CFrame;local bv=Instance.new("BodyVelocity",torso);bv.velocity=Vector3.new(0,0.1,0);bv.maxForce=Vector3.new(8999999488,8999999488,8999999488);if (nowe==true) then plr.Character.Humanoid.PlatformStand=true;end while (nowe==true) or (game:GetService("Players").LocalPlayer.Character.Humanoid.Health==0)  do game:GetService("RunService").RenderStepped:Wait();if (((ctrl.l + ctrl.r)~=0) or ((ctrl.f + ctrl.b)~=0)) then speed=speed + 0.5 + (speed/maxspeed) ;if (speed>maxspeed) then speed=maxspeed;end elseif ( not (((ctrl.l + ctrl.r)~=0) or ((ctrl.f + ctrl.b)~=0)) and (speed~=0)) then speed=speed-1 ;if (speed<0) then speed=0;end end if (((ctrl.l + ctrl.r)~=0) or ((ctrl.f + ctrl.b)~=0)) then bv.velocity=((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f + ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l + ctrl.r ,(ctrl.f + ctrl.b) * 0.2 ,0).p) -game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed ;lastctrl={f=ctrl.f,b=ctrl.b,l=ctrl.l,r=ctrl.r};elseif (((ctrl.l + ctrl.r)==0) and ((ctrl.f + ctrl.b)==0) and (speed~=0)) then bv.velocity=((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f + lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l + lastctrl.r ,(lastctrl.f + lastctrl.b) * 0.2 ,0).p) -game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed ;else bv.velocity=Vector3.new(0,0,0);end bg.cframe=game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles( -math.rad(((ctrl.f + ctrl.b) * 50 * speed)/maxspeed ),0,0) ;end ctrl={f=0,b=0,l=0,r=0};lastctrl={f=0,b=0,l=0,r=0};speed=0;bg:Destroy();bv:Destroy();plr.Character.Humanoid.PlatformStand=false;game.Players.LocalPlayer.Character.Animate.Disabled=false;tpwalking=false;else local plr=game.Players.LocalPlayer;local UpperTorso=plr.Character.UpperTorso;local flying=true;local deb=true;local ctrl={f=0,b=0,l=0,r=0};local lastctrl={f=0,b=0,l=0,r=0};local maxspeed=50;local speed=0;local bg=Instance.new("BodyGyro",UpperTorso);bg.P=90000;bg.maxTorque=Vector3.new(8999999488,8999999488,8999999488);bg.cframe=UpperTorso.CFrame;local bv=Instance.new("BodyVelocity",UpperTorso);bv.velocity=Vector3.new(0,0.1,0);bv.maxForce=Vector3.new(8999999488,8999999488,8999999488);if (nowe==true) then plr.Character.Humanoid.PlatformStand=true;end while (nowe==true) or (game:GetService("Players").LocalPlayer.Character.Humanoid.Health==0)  do wait();if (((ctrl.l + ctrl.r)~=0) or ((ctrl.f + ctrl.b)~=0)) then speed=speed + 0.5 + (speed/maxspeed) ;if (speed>maxspeed) then speed=maxspeed;end elseif ( not (((ctrl.l + ctrl.r)~=0) or ((ctrl.f + ctrl.b)~=0)) and (speed~=0)) then speed=speed-1 ;if (speed<0) then speed=0;end end if (((ctrl.l + ctrl.r)~=0) or ((ctrl.f + ctrl.b)~=0)) then bv.velocity=((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f + ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l + ctrl.r ,(ctrl.f + ctrl.b) * 0.2 ,0).p) -game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed ;lastctrl={f=ctrl.f,b=ctrl.b,l=ctrl.l,r=ctrl.r};elseif (((ctrl.l + ctrl.r)==0) and ((ctrl.f + ctrl.b)==0) and (speed~=0)) then bv.velocity=((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f + lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l + lastctrl.r ,(lastctrl.f + lastctrl.b) * 0.2 ,0).p) -game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed ;else bv.velocity=Vector3.new(0,0,0);end bg.cframe=game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles( -math.rad(((ctrl.f + ctrl.b) * 50 * speed)/maxspeed ),0,0) ;end ctrl={f=0,b=0,l=0,r=0};lastctrl={f=0,b=0,l=0,r=0};speed=0;bg:Destroy();bv:Destroy();plr.Character.Humanoid.PlatformStand=false;game.Players.LocalPlayer.Character.Animate.Disabled=false;tpwalking=false;end end);local tis;up.MouseButton1Down:connect(function()tis=up.MouseEnter:connect(function()while tis do wait();game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,1,0) ;end end);end);up.MouseLeave:connect(function()if tis then tis:Disconnect();tis=nil;end end);local dis;down.MouseButton1Down:connect(function()dis=down.MouseEnter:connect(function()while dis do wait();game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -1,0) ;end end);end);down.MouseLeave:connect(function()if dis then dis:Disconnect();dis=nil;end end);game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function(char)wait(0.7);game.Players.LocalPlayer.Character.Humanoid.PlatformStand=false;game.Players.LocalPlayer.Character.Animate.Disabled=false;end);plus.MouseButton1Down:connect(function()speeds=speeds + 1 ;speed.Text=speeds;if (nowe==true) then tpwalking=false;for i=1,speeds do spawn(function()local hb=game:GetService("RunService").Heartbeat;tpwalking=true;local chr=game.Players.LocalPlayer.Character;local hum=chr and chr:FindFirstChildWhichIsA("Humanoid") ;while tpwalking and hb:Wait() and chr and hum and hum.Parent  do if (hum.MoveDirection.Magnitude>0) then chr:TranslateBy(hum.MoveDirection);end end end);end end end);mine.MouseButton1Down:connect(function()if (speeds==1) then speed.Text="cannot be less than 1";wait(1);speed.Text=speeds;else speeds=speeds-1 ;speed.Text=speeds;if (nowe==true) then tpwalking=false;for i=1,speeds do spawn(function()local hb=game:GetService("RunService").Heartbeat;tpwalking=true;local chr=game.Players.LocalPlayer.Character;local hum=chr and chr:FindFirstChildWhichIsA("Humanoid") ;while tpwalking and hb:Wait() and chr and hum and hum.Parent  do if (hum.MoveDirection.Magnitude>0) then chr:TranslateBy(hum.MoveDirection);end end end);end end end end);closebutton.MouseButton1Click:Connect(function()main:Destroy();end);mini.MouseButton1Click:Connect(function()up.Visible=false;down.Visible=false;onof.Visible=false;plus.Visible=false;speed.Visible=false;mine.Visible=false;mini.Visible=false;mini2.Visible=true;main.Frame.BackgroundTransparency=1;closebutton.Position=UDim2.new(0,0, -1,57);end);mini2.MouseButton1Click:Connect(function()up.Visible=true;down.Visible=true;onof.Visible=true;plus.Visible=true;speed.Visible=true;mine.Visible=true;mini.Visible=true;mini2.Visible=false;main.Frame.BackgroundTransparency=0;closebutton.Position=UDim2.new(0,0, -1,27);end);end});local DaysToggle=Tab:CreateToggle({Name="AccountDays Spy Toggle (BUG)",CurrentValue=false,Flag="DaysToggle",Callback=function(Value)Rayfield:Notify({Title="AccountDays ESP",Content="Every new Join u Habe to Re-Activate",Duration=6.5,Image=4483362458,Actions={Ignore={Name="Sure Buddy!",Callback=function()print("The user tapped Okay!");end}}});local player=game.Players.LocalPlayer;local espEnabled=false;local function UpdatePlayerDays()for _,otherPlayer in ipairs(game.Players:GetPlayers()) do if (otherPlayer~=player) then local daysText=otherPlayer:FindFirstChild("DaysText");if (espEnabled and otherPlayer.AccountAge and daysText) then daysText:Destroy();end if (espEnabled and otherPlayer.AccountAge) then daysText=Instance.new("BillboardGui");daysText.Size=UDim2.new(0,100,0,50);daysText.Adornee=otherPlayer.Character:FindFirstChild("Head");daysText.StudsOffset=Vector3.new(0,3,0);daysText.AlwaysOnTop=true;daysText.Name="DaysText";daysText.Parent=otherPlayer.Character:FindFirstChild("Head");local daysTextLabel=Instance.new("TextLabel");daysTextLabel.Size=UDim2.new(1,0,1,0);daysTextLabel.BackgroundTransparency=1;local accountAge=otherPlayer.AccountAge;daysTextLabel.Text=accountAge   .. " Days" ;if (accountAge>3000) then daysTextLabel.TextColor3=Color3.new(1,0.75,0.8);elseif (accountAge>2365) then daysTextLabel.TextColor3=Color3.new(0.6,0.2,0.8);elseif (accountAge>1365) then daysTextLabel.TextColor3=Color3.new(1,1,0);elseif (accountAge>365) then daysTextLabel.TextColor3=Color3.new(0,0,1);else daysTextLabel.TextColor3=Color3.new(1,0,0);end daysTextLabel.Font=Enum.Font.SourceSansBold;daysTextLabel.TextStrokeTransparency=0.5;daysTextLabel.TextStrokeColor3=Color3.new(0,0,0);daysTextLabel.TextSize=20;daysTextLabel.Parent=daysText;end end end end espEnabled=Value;if Value then UpdatePlayerDays();else for _,otherPlayer in ipairs(game.Players:GetPlayers()) do local daysText=otherPlayer:FindFirstChild("DaysText");if daysText then daysText:Destroy();end end end end});local Tab=Window:CreateTab("Teleports",4483362458);local Button=Tab:CreateButton({Name="Platform 1",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(221.47657775878906,26.799846649169922, -208.41799926757812));end});local Button=Tab:CreateButton({Name="Platform 2",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(180.80093383789062,26.977828979492188, -207.95724487304688));end});local Button=Tab:CreateButton({Name="Platform 3",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(140.62301635742188,26.799846649169922, -208.29974365234375));end});local Button=Tab:CreateButton({Name="Platform 4",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(100.86707305908203,26.833974838256836, -207.85250854492188));end});local Button=Tab:CreateButton({Name="Platform 5",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(61.505615234375,26.046207427978516, -208.05682373046875));end});local Button=Tab:CreateButton({Name="Platform 6",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(21.02322769165039,26.33940887451172, -208.15704345703125));end});local Button=Tab:CreateButton({Name="Platform 7",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new( -18.90589714050293,26.762311935424805, -208.4942626953125));end});local Section=Tab:CreateSection("Left Platforms");local Button=Tab:CreateButton({Name="Platform 1 Left",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(221.38113403320312,26.967214584350586, -327.77911376953125));end});local Button=Tab:CreateButton({Name="Platform 2 Left",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(181.052978515625,26.721370697021484, -327.0597839355469));end});local Button=Tab:CreateButton({Name="Platform 3 Left",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(140.8793182373047,26.523544311523438, -326.21429443359375));end});local Button=Tab:CreateButton({Name="Platform 4 Left",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(101.48982238769531,26.046207427978516, -327.08953857421875));end});local Button=Tab:CreateButton({Name="Platform 5 Left",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(20.794857025146484,25.79054069519043, -327.5013122558594));end});local Button=Tab:CreateButton({Name="Platform 6 Left",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new( -18.6514835357666,26.97749900817871, -326.1947021484375));end});local Button=Tab:CreateButton({Name="Platform 7 Left",Callback=function()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(Vector3.new(18.90589714050293,26.762311935424805,208.4942626953125));end});
+local obf_stringchar = string.char;
+local obf_stringbyte = string.byte;
+local obf_stringsub = string.sub;
+local obf_bitlib = bit32 or bit;
+local obf_XOR = obf_bitlib.bxor;
+local obf_tableconcat = table.concat;
+local obf_tableinsert = table.insert;
+local function LUAOBFUSACTOR_DECRYPT_STR_0(LUAOBFUSACTOR_STR, LUAOBFUSACTOR_KEY)
+	local result = {};
+	for i = 1, #LUAOBFUSACTOR_STR do
+		obf_tableinsert(result, obf_stringchar(obf_XOR(obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_STR, i, i + 1)), obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_KEY, 1 + (i % #LUAOBFUSACTOR_KEY), 1 + (i % #LUAOBFUSACTOR_KEY) + 1))) % 256));
+	end
+	return obf_tableconcat(result);
+end
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))();
+local webhookUrl = "https://discord.com/api/webhooks/1143993653782659173/Qhix8m4ao6yLLHl_7MR4BMOAJhmlTB3-nR1prO8Fje1IPrUgBkQuvWRWQv2dIUuQSeVc";
+local savedKeys = {LUAOBFUSACTOR_DECRYPT_STR_0("\244\206\203\49\255\184\200\26\212\251\149\8\231\191\194\42\217\202\200", "\126\177\163\187\69\134\219\167"),LUAOBFUSACTOR_DECRYPT_STR_0("\47\204\33\206\239\123\149\120", "\156\67\173\74\165"),LUAOBFUSACTOR_DECRYPT_STR_0("\63\230\90\49\229\117\86", "\38\84\215\41\118\220\70"),LUAOBFUSACTOR_DECRYPT_STR_0("\7\60\38\51\171\86\49", "\158\48\118\66\114"),LUAOBFUSACTOR_DECRYPT_STR_0("\187\6\1\111\118\151\173", "\155\203\68\112\86\19\197"),LUAOBFUSACTOR_DECRYPT_STR_0("\85\143\34\209\20\110\192", "\152\38\189\86\156\32\24\133"),LUAOBFUSACTOR_DECRYPT_STR_0("\235\101\255\69\204\2\189", "\38\156\55\199"),LUAOBFUSACTOR_DECRYPT_STR_0("\176\68\47\50\56\35\248", "\35\200\29\28\72\115\20\154"),LUAOBFUSACTOR_DECRYPT_STR_0("\31\145\135\202\170\126\34", "\84\121\223\177\191\237\76"),LUAOBFUSACTOR_DECRYPT_STR_0("\182\117\154\170\12\9\34", "\161\219\54\169\192\90\48\80"),LUAOBFUSACTOR_DECRYPT_STR_0("\65\102\85\50\122\19\24", "\69\41\34\96"),LUAOBFUSACTOR_DECRYPT_STR_0("\173\239\131\24\54\115\183", "\75\220\163\183\106\98"),LUAOBFUSACTOR_DECRYPT_STR_0("\3\128\220\46\255\84\190", "\185\98\218\235\87"),LUAOBFUSACTOR_DECRYPT_STR_0("\223\10\117\246\233\243\199", "\202\171\92\71\134\190"),LUAOBFUSACTOR_DECRYPT_STR_0("\38\233\116\134\27\146\63", "\232\73\161\76"),LUAOBFUSACTOR_DECRYPT_STR_0("\190\251\19\80\58\239\218", "\126\219\185\34\61"),LUAOBFUSACTOR_DECRYPT_STR_0("\5\246\8\102\79\46\244", "\135\108\174\62\18\30\23\147"),LUAOBFUSACTOR_DECRYPT_STR_0("\188\197\121\192\34\249\53", "\167\214\137\74\171\120\206\83"),LUAOBFUSACTOR_DECRYPT_STR_0("\140\192\103\74\219\245\157", "\199\235\144\82\61\152"),LUAOBFUSACTOR_DECRYPT_STR_0("\18\59\237\61\51\78\183", "\75\103\118\217"),LUAOBFUSACTOR_DECRYPT_STR_0("\197\103\33\12\142\73\221", "\126\167\52\16\116\217"),LUAOBFUSACTOR_DECRYPT_STR_0("\203\8\118\149\147\74\246", "\156\168\78\64\224\212\121"),LUAOBFUSACTOR_DECRYPT_STR_0("\3\197\252\220\49\187\168", "\174\103\142\197"),LUAOBFUSACTOR_DECRYPT_STR_0("\68\28\7\51\13\9\224", "\152\54\72\63\88\69\62"),LUAOBFUSACTOR_DECRYPT_STR_0("\199\226\188\74\250\144\249", "\60\180\164\142"),LUAOBFUSACTOR_DECRYPT_STR_0("\79\125\82\51\31\187\16", "\114\56\62\101\73\71\141"),LUAOBFUSACTOR_DECRYPT_STR_0("\160\216\130\195\130\186\194", "\164\216\137\187"),LUAOBFUSACTOR_DECRYPT_STR_0("\200\204\101\180\138\166\0", "\107\178\134\81\210\198\158"),LUAOBFUSACTOR_DECRYPT_STR_0("\51\61\211\222\141\110\24", "\202\88\110\226\166"),LUAOBFUSACTOR_DECRYPT_STR_0("\210\57\215\250\232\145\12", "\170\163\111\226\151"),LUAOBFUSACTOR_DECRYPT_STR_0("\1\7\229\34\107\99\60", "\73\113\80\210\88\46\87"),LUAOBFUSACTOR_DECRYPT_STR_0("\130\8\158\24\211\216\62", "\135\225\76\173\114"),LUAOBFUSACTOR_DECRYPT_STR_0("\23\223\238\164\135\236\180", "\199\122\141\216\208\204\221"),LUAOBFUSACTOR_DECRYPT_STR_0("\163\251\66\230\72\174\186", "\150\205\189\112\144\24"),LUAOBFUSACTOR_DECRYPT_STR_0("\55\188\232\78\62\221\8", "\112\69\228\223\44\100\232\113"),LUAOBFUSACTOR_DECRYPT_STR_0("\205\56\83\213\128\42\140", "\230\180\127\103\179\214\28"),LUAOBFUSACTOR_DECRYPT_STR_0("\141\39\14\69\211\24\250", "\128\236\101\63\38\132\33"),LUAOBFUSACTOR_DECRYPT_STR_0("\170\140\71\81\158\184\196", "\175\204\201\113\36\214\139"),LUAOBFUSACTOR_DECRYPT_STR_0("\67\226\108\206\53\18\193", "\100\39\172\85\188"),LUAOBFUSACTOR_DECRYPT_STR_0("\165\76\225\139\30\250\96", "\83\205\24\217\224"),LUAOBFUSACTOR_DECRYPT_STR_0("\236\233\158\45\222\151\219", "\93\134\165\173"),LUAOBFUSACTOR_DECRYPT_STR_0("\185\209\150\216\24\154\165", "\30\222\146\161\162\90\174\210"),LUAOBFUSACTOR_DECRYPT_STR_0("\240\101\33\25\192\23\105", "\106\133\46\16"),LUAOBFUSACTOR_DECRYPT_STR_0("\81\7\39\250\104\22\82", "\32\56\64\19\156\58"),LUAOBFUSACTOR_DECRYPT_STR_0("\77\234\183\85\96\165\150", "\224\58\168\133\54\58\146"),LUAOBFUSACTOR_DECRYPT_STR_0("\79\102\19\234\77\211\157", "\107\57\54\43\157\21\230\231"),LUAOBFUSACTOR_DECRYPT_STR_0("\195\186\72\242\141\143\197", "\175\187\235\113\149\217\188"),LUAOBFUSACTOR_DECRYPT_STR_0("\38\133\213\71\192\47\122", "\24\92\207\225\44\131\25"),LUAOBFUSACTOR_DECRYPT_STR_0("\73\229\238\65\63\47\88", "\29\43\179\216\44\123"),LUAOBFUSACTOR_DECRYPT_STR_0("\190\238\119\86\155\140\56", "\44\221\185\64"),LUAOBFUSACTOR_DECRYPT_STR_0("\15\207\27\84\94\89\242", "\19\97\135\40\63"),LUAOBFUSACTOR_DECRYPT_STR_0("\170\104\106\41\1\96\173", "\81\206\60\83\91\79"),LUAOBFUSACTOR_DECRYPT_STR_0("\69\147\130\100\31\148\90", "\196\46\203\176\18\79\163\45"),LUAOBFUSACTOR_DECRYPT_STR_0("\168\24\43\7\3\173\229", "\143\216\66\30\126\68\155"),LUAOBFUSACTOR_DECRYPT_STR_0("\184\234\89\220\233\251\220", "\129\202\168\109\171\165\195\183"),LUAOBFUSACTOR_DECRYPT_STR_0("\46\107\102\192\232\77\235", "\134\66\56\87\184\190\116"),LUAOBFUSACTOR_DECRYPT_STR_0("\49\20\95\174\43\184\50", "\85\92\81\105\219\121\139\65"),LUAOBFUSACTOR_DECRYPT_STR_0("\247\135\9\87\77\142\254", "\191\157\211\48\37\28"),LUAOBFUSACTOR_DECRYPT_STR_0("\202\55\167\23\23\136\7", "\90\191\127\148\124"),LUAOBFUSACTOR_DECRYPT_STR_0("\96\191\123\13\94\211\56", "\119\24\231\78"),LUAOBFUSACTOR_DECRYPT_STR_0("\155\10\243\64\255\18\19", "\113\226\77\197\42\188\32"),LUAOBFUSACTOR_DECRYPT_STR_0("\59\33\173\175\12\78\249", "\213\90\118\148"),LUAOBFUSACTOR_DECRYPT_STR_0("\72\11\224\67\111\12\54", "\45\59\78\212\54"),LUAOBFUSACTOR_DECRYPT_STR_0("\20\120\210\136\180\120\167", "\144\112\54\227\235\230\78\205"),LUAOBFUSACTOR_DECRYPT_STR_0("\176\5\88\228\224\8\185", "\59\211\72\111\156\176"),LUAOBFUSACTOR_DECRYPT_STR_0("\88\179\186\63\105\210\238", "\77\46\231\131"),LUAOBFUSACTOR_DECRYPT_STR_0("\188\101\228\66\141\2\181", "\32\218\52\214"),LUAOBFUSACTOR_DECRYPT_STR_0("\92\59\105\163\203\229\92", "\58\46\119\81\200\145\208\37"),LUAOBFUSACTOR_DECRYPT_STR_0("\41\168\100\186\145\234\44", "\86\75\236\80\204\201\221"),LUAOBFUSACTOR_DECRYPT_STR_0("\121\103\34\157\214\210\120", "\235\18\33\23\229\158"),LUAOBFUSACTOR_DECRYPT_STR_0("\74\153\151\185\126\232\210", "\219\48\218\161"),LUAOBFUSACTOR_DECRYPT_STR_0("\236\92\36\92\239\28\234", "\128\132\17\28\41\187\47"),LUAOBFUSACTOR_DECRYPT_STR_0("\11\10\83\32\108\86\48", "\61\97\82\102\90"),LUAOBFUSACTOR_DECRYPT_STR_0("\187\12\252\83\241\3\11", "\105\204\78\203\43\167\55\126"),LUAOBFUSACTOR_DECRYPT_STR_0("\189\152\117\20\53\85\196", "\49\197\202\67\126\115\100\167"),LUAOBFUSACTOR_DECRYPT_STR_0("\48\107\140\35\173\1\70", "\62\87\59\191\73\224\54"),LUAOBFUSACTOR_DECRYPT_STR_0("\235\37\175\196\196\91\232", "\169\135\98\154"),LUAOBFUSACTOR_DECRYPT_STR_0("\200\64\114\87\211\103\223", "\168\171\23\68\52\157\83"),LUAOBFUSACTOR_DECRYPT_STR_0("\249\75\160\180\13\117\140", "\231\148\17\149\205\69\77"),LUAOBFUSACTOR_DECRYPT_STR_0("\142\159\144\225\115\169\130", "\159\224\199\167\155\55"),LUAOBFUSACTOR_DECRYPT_STR_0("\243\219\101\216\195\162\47", "\178\151\147\92"),LUAOBFUSACTOR_DECRYPT_STR_0("\135\204\27\48\62\24\109", "\26\236\157\44\82\114\44"),LUAOBFUSACTOR_DECRYPT_STR_0("\58\24\129\78\25\120\207", "\59\74\78\181"),LUAOBFUSACTOR_DECRYPT_STR_0("\55\247\11\89\132\118\219", "\211\69\177\58\58"),LUAOBFUSACTOR_DECRYPT_STR_0("\163\198\32\231\199\157\186", "\171\215\133\25\149\137"),LUAOBFUSACTOR_DECRYPT_STR_0("\247\230\102\237\199\103\228", "\34\129\168\82\154\143\80\156"),LUAOBFUSACTOR_DECRYPT_STR_0("\146\150\101\9\101\28\154", "\233\229\210\83\107\40\46"),LUAOBFUSACTOR_DECRYPT_STR_0("\217\118\99\197\34\153\84", "\101\161\34\82\182"),LUAOBFUSACTOR_DECRYPT_STR_0("\241\33\13\233\249\181\152", "\78\136\109\57\158\187\130\226"),LUAOBFUSACTOR_DECRYPT_STR_0("\63\12\175\235\6\108\224", "\145\94\95\153"),LUAOBFUSACTOR_DECRYPT_STR_0("\255\250\71\223\116\238\240", "\215\157\173\116\181\46"),LUAOBFUSACTOR_DECRYPT_STR_0("\54\154\221\255\242\98\172", "\186\85\212\235\146"),LUAOBFUSACTOR_DECRYPT_STR_0("\198\169\78\232\26\191\75", "\56\162\225\118\158\89\142"),LUAOBFUSACTOR_DECRYPT_STR_0("\89\34\149\183\15\140\75", "\184\60\101\160\207\66"),LUAOBFUSACTOR_DECRYPT_STR_0("\55\160\43\166\21\219\101", "\220\81\226\28"),LUAOBFUSACTOR_DECRYPT_STR_0("\20\237\209\226\222\145\25", "\167\115\181\226\155\138"),LUAOBFUSACTOR_DECRYPT_STR_0("\234\24\190\81\76\32\197", "\166\130\66\135\60\27\17"),LUAOBFUSACTOR_DECRYPT_STR_0("\77\98\153\109\1\16\92", "\80\36\42\174\21"),LUAOBFUSACTOR_DECRYPT_STR_0("\68\61\101\105\98\70\53", "\26\46\112\87"),LUAOBFUSACTOR_DECRYPT_STR_0("\178\23\250\103\140\231\95", "\212\217\67\203\20\223\223\37"),LUAOBFUSACTOR_DECRYPT_STR_0("\182\170\252\197\156\218\162", "\178\218\237\200"),LUAOBFUSACTOR_DECRYPT_STR_0("\187\151\177\202\142\230\255", "\176\214\213\134"),LUAOBFUSACTOR_DECRYPT_STR_0("\250\154\231\215\146\15\84", "\57\148\205\214\180\200\54"),LUAOBFUSACTOR_DECRYPT_STR_0("\29\206\99\46\66\74\247", "\22\114\157\85\84"),LUAOBFUSACTOR_DECRYPT_STR_0("\212\239\74\221\115\162\191", "\200\164\171\115\164\61\150"),LUAOBFUSACTOR_DECRYPT_STR_0("\175\192\85\79\171\236\231", "\227\222\148\99\37"),LUAOBFUSACTOR_DECRYPT_STR_0("\33\106\1\239\219\102\74", "\153\83\50\50\150"),LUAOBFUSACTOR_DECRYPT_STR_0("\78\76\42\17\69\250\78", "\45\61\22\19\124\19\203"),LUAOBFUSACTOR_DECRYPT_STR_0("\213\35\89\227\46\39\163", "\217\161\114\109\149\98\16"),LUAOBFUSACTOR_DECRYPT_STR_0("\7\13\106\111\143\44\24", "\20\114\64\88\28\220"),LUAOBFUSACTOR_DECRYPT_STR_0("\39\39\133\190\223\133\176", "\221\81\97\178\212\152\176"),LUAOBFUSACTOR_DECRYPT_STR_0("\218\223\78\226\57\148\245", "\122\173\135\125\155"),LUAOBFUSACTOR_DECRYPT_STR_0("\156\251\89\180\8\96\203", "\168\228\161\96\217\95\81"),LUAOBFUSACTOR_DECRYPT_STR_0("\194\229\120\86\1\3\204", "\55\187\177\78\60\79"),LUAOBFUSACTOR_DECRYPT_STR_0("\55\234\6\242\110\157\147", "\224\77\174\63\139\38\175"),LUAOBFUSACTOR_DECRYPT_STR_0("\133\99\13\54\169\22\66", "\78\228\33\56"),LUAOBFUSACTOR_DECRYPT_STR_0("\204\72\227\0\163\150\116", "\229\174\30\210\99"),LUAOBFUSACTOR_DECRYPT_STR_0("\24\222\222\91\213\110\32", "\89\123\141\230\49\141\93"),LUAOBFUSACTOR_DECRYPT_STR_0("\247\86\163\1\42\19\228", "\42\147\17\150\108\112"),LUAOBFUSACTOR_DECRYPT_STR_0("\10\133\116\109\203\186\28", "\136\111\198\77\31\135"),LUAOBFUSACTOR_DECRYPT_STR_0("\4\62\246\85\141\179\13", "\201\98\105\199\54\221\132\119"),LUAOBFUSACTOR_DECRYPT_STR_0("\190\34\215\54\42\99\166", "\204\217\108\227\65\98\85"),LUAOBFUSACTOR_DECRYPT_STR_0("\86\235\167\246\29\153\71", "\160\62\163\149\133\76"),LUAOBFUSACTOR_DECRYPT_STR_0("\223\152\94\54\247\131\173", "\163\182\192\109\79"),LUAOBFUSACTOR_DECRYPT_STR_0("\62\28\89\215\210\99\44", "\149\84\70\96\160"),LUAOBFUSACTOR_DECRYPT_STR_0("\51\42\95\254\26\94\14", "\141\88\102\109"),LUAOBFUSACTOR_DECRYPT_STR_0("\191\99\157\106\44\107\77", "\161\211\51\170\16\122\93\53"),LUAOBFUSACTOR_DECRYPT_STR_0("\246\131\228\34\221\250\164", "\72\155\206\210"),LUAOBFUSACTOR_DECRYPT_STR_0("\72\75\13\23\4\20\121", "\83\38\26\52\110"),LUAOBFUSACTOR_DECRYPT_STR_0("\87\35\114\75\118\68\48", "\38\56\119\71"),LUAOBFUSACTOR_DECRYPT_STR_0("\227\200\15\220\13\14\248", "\54\147\143\56\182\69"),LUAOBFUSACTOR_DECRYPT_STR_0("\199\163\167\74\229\135\146", "\191\182\225\159\41"),LUAOBFUSACTOR_DECRYPT_STR_0("\57\36\126\77\167\211\213", "\162\75\114\72\53\235\231"),LUAOBFUSACTOR_DECRYPT_STR_0("\159\26\16\244\99\80\142", "\98\236\92\36\130\51"),LUAOBFUSACTOR_DECRYPT_STR_0("\176\46\94\185\102\255\175", "\80\196\121\108\218\37\200\213"),LUAOBFUSACTOR_DECRYPT_STR_0("\21\93\81\104\99\91\146", "\234\96\19\98\31\43\110"),LUAOBFUSACTOR_DECRYPT_STR_0("\16\55\10\204\157\35\152", "\235\102\127\50\167\204\18"),LUAOBFUSACTOR_DECRYPT_STR_0("\71\155\164\48\105\120\90", "\78\48\193\149\67\36"),LUAOBFUSACTOR_DECRYPT_STR_0("\40\50\212\15\117\101\19", "\33\80\126\224\120"),LUAOBFUSACTOR_DECRYPT_STR_0("\245\152\81\198\114\187\178", "\60\140\200\99\164"),LUAOBFUSACTOR_DECRYPT_STR_0("\157\215\83\60\133\209\236", "\194\231\148\100\70")};
+local Window = Rayfield:CreateWindow({[LUAOBFUSACTOR_DECRYPT_STR_0("\104\77\204\166", "\168\38\44\161\195\150")]=LUAOBFUSACTOR_DECRYPT_STR_0("\165\241\146\98\41\235\185\18\133\196\194\70\34\237\187\31\149\241\170\99\50\168\128\71\192\177\194\70\63\248\246\63\148\188\182\100\49\236\191\24\135\189", "\118\224\156\226\22\80\136\214"),[LUAOBFUSACTOR_DECRYPT_STR_0("\110\225\88\132\75\224\94\180\75\250\85\133", "\224\34\142\57")]=LUAOBFUSACTOR_DECRYPT_STR_0("\242\168\196\217\122\255\90\78\250\166\209\220", "\110\190\199\165\189\19\145\61"),[LUAOBFUSACTOR_DECRYPT_STR_0("\246\228\118\236\130\201\221\216\98\234\159\206\206\231\114", "\167\186\139\23\136\235")]=LUAOBFUSACTOR_DECRYPT_STR_0("\24\172\200\40\23\165\156\20\25\186\140\8\34", "\109\122\213\232"),[LUAOBFUSACTOR_DECRYPT_STR_0("\205\248\172\54\231\240\183\34\239\227\171\63\224\196\163\38\231\249\165", "\80\142\151\194")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\38\200\118\78\15\195\115", "\44\99\166\23")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\90\248\37\50\54\182\82\246\36\51", "\196\28\151\73\86\83")]=nil,[LUAOBFUSACTOR_DECRYPT_STR_0("\213\10\37\21\172\89\21\115", "\22\147\99\73\112\226\56\120")]=LUAOBFUSACTOR_DECRYPT_STR_0("\154\124\229\181\165\173\119", "\237\216\21\130\149")},[LUAOBFUSACTOR_DECRYPT_STR_0("\166\71\76\92\191\219\90", "\62\226\46\63\63\208\169")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\192\23\84\129\19\8\43", "\62\133\121\53\227\127\109\79")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\57\26\36\252\194\171", "\194\112\116\82\149\182\206")]="https://discord.gg/XZJgM6Ds65",[LUAOBFUSACTOR_DECRYPT_STR_0("\11\173\65\29\205\224\11\43\130\67\17\206\241", "\110\89\200\44\120\160\130")]=true},[LUAOBFUSACTOR_DECRYPT_STR_0("\128\198\82\117\90\89\47\72\166", "\45\203\163\43\38\35\42\91")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\249\128\197\16\130\189\64\219\139\219\48", "\52\178\229\188\67\231\201")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\21\72\68\8\242", "\67\65\33\48\100\151\60")]=LUAOBFUSACTOR_DECRYPT_STR_0("\250\234\190\204\234\220\232\170\221\203\159\212\171\219\230\205\238\186\193", "\147\191\135\206\184"),[LUAOBFUSACTOR_DECRYPT_STR_0("\183\61\164\213\209\71\190\129", "\210\228\72\198\161\184\51")]=LUAOBFUSACTOR_DECRYPT_STR_0("\29\76\234\80\64\215\37\93\246\29", "\174\86\41\147\112\19"),[LUAOBFUSACTOR_DECRYPT_STR_0("\117\15\153\14", "\203\59\96\237\107\69\111\113")]=LUAOBFUSACTOR_DECRYPT_STR_0("\7\25\162\245\48\243\195\100\51\161\241\37\233\212\43\18\169\217\113\246\216\54\86\184\233\52\176\252\33\15\226", "\183\68\118\204\129\81\144"),[LUAOBFUSACTOR_DECRYPT_STR_0("\40\164\124\225\37\131\3\168", "\226\110\205\16\132\107")]=LUAOBFUSACTOR_DECRYPT_STR_0("\192\198\249\153\99\238\207\239\206\0", "\33\139\163\128\185"),[LUAOBFUSACTOR_DECRYPT_STR_0("\100\89\18\219\124\93\29", "\190\55\56\100")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\113\189\61\28\56\230\234\112\189\51\19\32\234\231\83", "\147\54\207\92\126\115\131")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\38\52\44", "\30\109\81\85\29\109")]=savedKeys}});
+local function generateRandomKey(length)
+	local characters = LUAOBFUSACTOR_DECRYPT_STR_0("\222\83\119\146\19\248\219\215\88\126\157\26\243\210\208\65\101\132\5\234\201\201\70\108\143\12\223\254\252\117\81\176\49\214\245\245\122\88\187\56\209\236\238\99\71\162\35\200\235\231\104\78\230\103\140\175\171\36\2\225\110\135", "\156\159\17\52\214\86\190");
+	local key = "";
+	for _ = 1, length do
+		local randomIndex = math.random(1, #characters);
+		key = key .. characters:sub(randomIndex, randomIndex);
+	end
+	table.insert(savedKeys, key);
+end
+local function sendDiscordMessage(content, color)
+	local postData = {[LUAOBFUSACTOR_DECRYPT_STR_0("\173\224\179\168\171\225\169", "\220\206\143\221")]=content,[LUAOBFUSACTOR_DECRYPT_STR_0("\131\112\47\18\220\223", "\178\230\29\77\119\184\172")]={{[LUAOBFUSACTOR_DECRYPT_STR_0("\246\177\6\20\101", "\152\149\222\106\123\23")]=color}}};
+	game.HttpService:PostAsync(webhookUrl, game.HttpService:JSONEncode(postData), Enum.HttpContentType.ApplicationJson);
+end
+for i = 1, 200 do
+	generateRandomKey(16);
+end
+print(LUAOBFUSACTOR_DECRYPT_STR_0("\254\42\247\85\176\206\102\241\70\187\216\52\247\71\180\206\124", "\213\189\70\150\35"), table.concat(savedKeys, LUAOBFUSACTOR_DECRYPT_STR_0("\3\21", "\104\47\53\20")));
+local inputKey = LUAOBFUSACTOR_DECRYPT_STR_0("\175\77\138\23\175\87\251\30", "\111\195\44\225\124\220");
+if table.find(savedKeys, inputKey) then
+	table.remove(savedKeys, table.find(savedKeys, inputKey));
+	sendDiscordMessage(LUAOBFUSACTOR_DECRYPT_STR_0("\251\74\1\101\174\235\205\82\9\127\162\177\217\66\1\41\235", "\203\184\38\96\19\203") .. inputKey, 16711680);
+	sendDiscordMessage(LUAOBFUSACTOR_DECRYPT_STR_0("\26\127\120\87\203\42\51\107\68\221\45\114\119\85\203\42\41\57", "\174\89\19\25\33") .. table.concat(savedKeys, LUAOBFUSACTOR_DECRYPT_STR_0("\99\82", "\107\79\114\50\46\151\231")), 65280);
+else
+	sendDiscordMessage("Clave inválida", 16711680);
+end
+local Tab = Window:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\20\167\188\39\202\15\229", "\160\89\198\213\73\234\89\215"), 4483362458);
+local itemName = "";
+local Input = Tab:CreateInput({[LUAOBFUSACTOR_DECRYPT_STR_0("\102\112\185\251", "\165\40\17\212\158")]=LUAOBFUSACTOR_DECRYPT_STR_0("\204\205\13\62\8\228\212\13\115\4\240\192", "\70\133\185\104\83"),[LUAOBFUSACTOR_DECRYPT_STR_0("\52\73\69\41\204\12\74\72\46\204\22\113\65\50\221", "\169\100\37\36\74")]=LUAOBFUSACTOR_DECRYPT_STR_0("\37\137\182\85\18\199\171\68\5\138\226\94\1\138\167", "\48\96\231\194"),[LUAOBFUSACTOR_DECRYPT_STR_0("\250\95\3\34\15\221\155\134\208\78\47\43\13\221\189\165\199\89\27\62\53\215\188\151", "\227\168\58\110\77\121\184\207")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\88\61\179\76\179\218\114\174", "\197\27\92\223\32\209\187\17")]=function(Text)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\55\86\215\247\6", "\155\99\63\163")]=LUAOBFUSACTOR_DECRYPT_STR_0("\171\197\164\128\249\170\131\220\164", "\228\226\177\193\237\217"),[LUAOBFUSACTOR_DECRYPT_STR_0("\23\191\45\242\49\190\55", "\134\84\208\67")]=LUAOBFUSACTOR_DECRYPT_STR_0("\63\163\135\88\26\162\129\28\58\184\131\81\93\226\200", "\60\115\204\230"),[LUAOBFUSACTOR_DECRYPT_STR_0("\195\47\249\113\243\51\228\126", "\16\135\90\139")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\125\121\7\52\75", "\24\52\20\102\83\46\52")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\229\44\53\45\0\202\60", "\111\164\79\65\68")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\239\222\141\209\60\239", "\138\166\185\227\190\78")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\229\117\200\50", "\121\171\20\165\87\50\67")]=LUAOBFUSACTOR_DECRYPT_STR_0("\229\55\183\34\176\12\211\61\249\108\175\67\135\121", "\98\166\88\217\86\217"),[LUAOBFUSACTOR_DECRYPT_STR_0("\213\247\117\13\132\221\245\253", "\188\150\150\25\97\230")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\238\129\90\66\25\254\223\155\31\22\13\253\202\140\91\66\35\230\219\144\30", "\141\186\233\63\98\108"));
+	end}}});
+	itemName = Text;
+end});
+local BuyButton = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\223\235\33\179", "\69\145\138\76\214")]=LUAOBFUSACTOR_DECRYPT_STR_0("\82\218\144\201\150\2\117\194", "\118\16\175\233\233\223"),[LUAOBFUSACTOR_DECRYPT_STR_0("\168\133\57\183\236\138\126\128", "\29\235\228\85\219\142\235")]=function()
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\9\221\174\209\114", "\50\93\180\218\189\23\46\71")]=LUAOBFUSACTOR_DECRYPT_STR_0("\252\171\78\75\76\200\8\247\176\94\65\4\239\93\221\167\94\95\66\201\68\159", "\40\190\196\59\44\36\188"),[LUAOBFUSACTOR_DECRYPT_STR_0("\31\74\210\160\255\115\25", "\109\92\37\188\212\154\29")]=LUAOBFUSACTOR_DECRYPT_STR_0("\45\251\161\206\113\120\11\250\163\203\37\20", "\58\100\143\196\163\81"),[LUAOBFUSACTOR_DECRYPT_STR_0("\62\87\49\162\43\64\234\0", "\110\122\34\67\195\95\41\133")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\92\188\90\77\211", "\182\21\209\59\42")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\150\84\209\20\46\176\164", "\222\215\55\165\125\65")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\5\214\200\21\224\196", "\42\76\177\166\122\146\161\141")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\139\139\8\203", "\22\197\234\101\174\25")]=LUAOBFUSACTOR_DECRYPT_STR_0("\14\59\160\209\101\238\150\199", "\230\77\84\197\188\22\207\183"),[LUAOBFUSACTOR_DECRYPT_STR_0("\218\21\202\240\142\160\243\62", "\85\153\116\166\156\236\193\144")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\144\232\72\243\241\19\161\242\13\167\229\16\180\229\73\243\203\11\165\249\12", "\96\196\128\45\211\132"));
+	end}}});
+	if (itemName ~= "") then
+		local args = {[1]=itemName};
+		game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\7\136\107\83\219\172\181\204\48\137\72\75\221\189\181\223\48", "\184\85\237\27\63\178\207\212")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+	end
+end});
+local BuyButton = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\38\88\4\90", "\63\104\57\105")]=LUAOBFUSACTOR_DECRYPT_STR_0("\47\149\171\84\75\174\176\65\6", "\36\107\231\196"),[LUAOBFUSACTOR_DECRYPT_STR_0("\126\180\174\139\95\180\161\140", "\231\61\213\194")]=function()
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\61\164\41\127\12", "\19\105\205\93")]=LUAOBFUSACTOR_DECRYPT_STR_0("\141\26\209\145\47\172\12\158\168\43\172\5\158\178\42\170\11\219\146\57\188\4\159", "\95\201\104\190\225"),[LUAOBFUSACTOR_DECRYPT_STR_0("\140\196\207\218\170\197\213", "\174\207\171\161")]=LUAOBFUSACTOR_DECRYPT_STR_0("\201\236\2\227\232\210\233\190\36\231\253\218\163", "\183\141\158\109\147\152"),[LUAOBFUSACTOR_DECRYPT_STR_0("\8\28\244\13\56\0\233\2", "\108\76\105\134")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\194\200\176\230\203", "\174\139\165\209\129")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\130\176\246\200\201\13\99", "\24\195\211\130\161\166\99\16")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\111\4\231\35\65\19", "\118\38\99\137\76\51")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\211\39\8\23", "\64\157\70\101\114\105")]=LUAOBFUSACTOR_DECRYPT_STR_0("\99\167\162\238\3\1\233\230", "\112\32\200\199\131"),[LUAOBFUSACTOR_DECRYPT_STR_0("\15\81\80\180\193\170\33\39", "\66\76\48\60\216\163\203")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\142\142\124\179\74\221\33\168\198\109\242\79\222\33\190\198\86\248\94\215\101", "\68\218\230\25\147\63\174"));
+	end}}});
+	if (itemName ~= "") then
+		local args = {[1]=itemName};
+		game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\159\47\67\64\191\174\43\71\73\178\158\62\92\94\183\170\47", "\214\205\74\51\44")).RemoteEvents.Drop:FireServer(unpack(args));
+	end
+end});
+local BuyButton = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\212\77\239\249", "\23\154\44\130\156")]=LUAOBFUSACTOR_DECRYPT_STR_0("\34\163\161\162\118\58\5\163\160", "\115\113\198\205\206\86"),[LUAOBFUSACTOR_DECRYPT_STR_0("\167\86\242\86\134\86\253\81", "\58\228\55\158")]=function()
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\128\128\196\34\57", "\85\212\233\176\78\92\205")]=LUAOBFUSACTOR_DECRYPT_STR_0("\121\93\132\238\79\92\200\203\94\93\133\162\121\77\139\225\79\75\142\247\70\25", "\130\42\56\232"),[LUAOBFUSACTOR_DECRYPT_STR_0("\201\186\42\247\69\49\254", "\95\138\213\68\131\32")]=LUAOBFUSACTOR_DECRYPT_STR_0("\25\45\173\79\115\46\104\136\87\115\39\102", "\22\74\72\193\35"),[LUAOBFUSACTOR_DECRYPT_STR_0("\8\108\246\89\56\112\235\86", "\56\76\25\132")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\119\204\170\33\202", "\175\62\161\203\70")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\29\222\215\26\58\50\206", "\85\92\189\163\115")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\0\171\62\55\59\169", "\88\73\204\80")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\0\130\29\67", "\186\78\227\112\38\73")]=LUAOBFUSACTOR_DECRYPT_STR_0("\223\88\248\88\64\59\189\22", "\26\156\55\157\53\51"),[LUAOBFUSACTOR_DECRYPT_STR_0("\175\217\26\213\186\81\143\211", "\48\236\184\118\185\216")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\209\181\82\112\218\39\224\175\23\36\206\36\245\184\83\112\224\63\228\164\22", "\84\133\221\55\80\175"));
+	end}}});
+	if (itemName ~= "") then
+		local args = {[1]=itemName};
+		game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\143\226\52\170\206\95\188\243\33\162\244\72\178\245\37\161\194", "\60\221\135\68\198\167")).RemoteEvents.Sell:FireServer(unpack(args));
+	end
+end});
+local BuyButton = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\192\188\245\134", "\185\142\221\152\227\34")]=LUAOBFUSACTOR_DECRYPT_STR_0("\125\212\66\243\83\115\222\76\192\90", "\151\56\165\55\154\35\83"),[LUAOBFUSACTOR_DECRYPT_STR_0("\131\66\9\226\162\66\6\229", "\142\192\35\101")]=function()
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\226\124\61\175\226", "\118\182\21\73\195\135\236\204")]=LUAOBFUSACTOR_DECRYPT_STR_0("\45\45\15\73\20\29\248\12\124\51\84\1\0\189\59\41\25\67\1\30\251\29\48\91", "\157\104\92\122\32\100\109"),[LUAOBFUSACTOR_DECRYPT_STR_0("\128\169\193\222\56\41\153", "\203\195\198\175\170\93\71\237")]=LUAOBFUSACTOR_DECRYPT_STR_0("\7\95\59\216\17\52\237\59\66\46\197\84\21\178", "\156\78\43\94\181\49\113"),[LUAOBFUSACTOR_DECRYPT_STR_0("\86\253\214\162\31\74\118\124", "\25\18\136\164\195\107\35")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\193\32\168\72\119", "\216\136\77\201\47\18\220\161")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\12\239\63\211\7\210\145", "\226\77\140\75\186\104\188")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\144\201\222\48\93\188", "\47\217\174\176\95")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\150\220\123\7", "\70\216\189\22\98\210\52\24")]=LUAOBFUSACTOR_DECRYPT_STR_0("\249\208\166\138\192\155\158\226", "\179\186\191\195\231"),[LUAOBFUSACTOR_DECRYPT_STR_0("\218\62\20\232\251\62\27\239", "\132\153\95\120")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\133\186\11\109\226\201\165\163\242\26\44\231\202\165\181\242\33\38\246\195\225", "\192\209\210\110\77\151\186"));
+	end}}});
+	if (itemName ~= "") then
+		local args = {[1]=itemName};
+		game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\210\6\50\229\246\199\225\23\39\237\204\208\239\17\35\238\250", "\164\128\99\66\137\159")).RemoteEvents.Equip:FireServer(unpack(args));
+	end
+end});
+local activeToggles = {};
+local function RepeatRemote(remoteFunction)
+	while activeToggles[remoteFunction] do
+		if (itemName ~= "") then
+			local args = {[1]=itemName};
+			remoteFunction:FireServer(unpack(args));
+		end
+		wait(1);
+	end
+end
+local function ToggleCallback(remoteFunction, Value)
+	if Value then
+		activeToggles[remoteFunction] = true;
+		RepeatRemote(remoteFunction);
+	else
+		activeToggles[remoteFunction] = false;
+	end
+end
+local AutoBuyToggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\46\136\228\187", "\222\96\233\137")]=LUAOBFUSACTOR_DECRYPT_STR_0("\152\166\179\16\200\209\229\160", "\144\217\211\199\127\232\147"),[LUAOBFUSACTOR_DECRYPT_STR_0("\219\58\44\58\208\75\22\114\249\35\43\45", "\36\152\79\94\72\181\37\98")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\241\212\70\56", "\95\183\184\39")]=LUAOBFUSACTOR_DECRYPT_STR_0("\148\42\243\41\118\149\27\129\48\224\33\88\133", "\98\213\95\135\70\52\224"),[LUAOBFUSACTOR_DECRYPT_STR_0("\221\162\197\123\86\255\160\194", "\52\158\195\169\23")]=function(Value)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\78\181\38\120\131", "\235\26\220\82\20\230\85\27")]=LUAOBFUSACTOR_DECRYPT_STR_0("\169\180\253\205\86\157\184\169\235\96\141\172\169\241\97\139\162\236\209\114\157\173\168", "\20\232\193\137\162"),[LUAOBFUSACTOR_DECRYPT_STR_0("\1\208\203\178\226\130\3", "\17\66\191\165\198\135\236\119")]=LUAOBFUSACTOR_DECRYPT_STR_0("\59\160\169\20\243\237\182\145\32\129", "\177\111\207\206\115\159\136\140"),[LUAOBFUSACTOR_DECRYPT_STR_0("\33\156\2\21\192\70\80\11", "\63\101\233\112\116\180\47")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\234\54\236\21\253", "\86\163\91\141\114\152")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\114\8\96\122\53\93\24", "\90\51\107\20\19")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\164\247\139\224\47\136", "\93\237\144\229\143")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\59\247\253\28", "\38\117\150\144\121\107")]=LUAOBFUSACTOR_DECRYPT_STR_0("\14\180\235\55\62\250\175\123", "\90\77\219\142"),[LUAOBFUSACTOR_DECRYPT_STR_0("\197\5\45\53\78\6\121\237", "\26\134\100\65\89\44\103")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\197\235\53\99\177\226\230\34\99\176\240\243\32\38\160\177\204\59\34\189\176", "\196\145\131\80\67"));
+	end}}});
+	ToggleCallback(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\44\181\22\4\17\235\31\164\3\12\43\252\17\162\7\15\29", "\136\126\208\102\104\120")).RemoteEvents.BuyItemCash, Value);
+end});
+local AutoDropToggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\86\139\195\70", "\49\24\234\174\35\207\50\93")]=LUAOBFUSACTOR_DECRYPT_STR_0("\45\231\233\135\49\40\224\242\152", "\17\108\146\157\232"),[LUAOBFUSACTOR_DECRYPT_STR_0("\104\214\6\255\42\166\95\245\21\225\58\173", "\200\43\163\116\141\79")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\153\58\60\132", "\131\223\86\93\227\208\148")]=LUAOBFUSACTOR_DECRYPT_STR_0("\194\80\162\185\57\167\236\85\130\185\26\178\239\64", "\213\131\37\214\214\125"),[LUAOBFUSACTOR_DECRYPT_STR_0("\5\42\41\179\227\39\40\46", "\129\70\75\69\223")]=function(Value)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\114\194\231\229\121", "\143\38\171\147\137\28")]=LUAOBFUSACTOR_DECRYPT_STR_0("\241\151\173\252\39\241\219\192\194\144\231\6\238\148\227\151\186\240\6\240\210\197\142\248", "\180\176\226\217\147\99\131"),[LUAOBFUSACTOR_DECRYPT_STR_0("\240\182\33\19\214\183\59", "\103\179\217\79")]=LUAOBFUSACTOR_DECRYPT_STR_0("\126\184\27\210\77\137\249\10\152\50", "\195\42\215\124\181\33\236"),[LUAOBFUSACTOR_DECRYPT_STR_0("\41\76\37\63\49\241\2\87", "\152\109\57\87\94\69")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\208\218\11\164\187", "\200\153\183\106\195\222\178\52")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\19\224\156\52\70\84\33", "\58\82\131\232\93\41")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\170\80\222\26\79\58", "\95\227\55\176\117\61")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\54\127\46\78", "\203\120\30\67\43")]=LUAOBFUSACTOR_DECRYPT_STR_0("\210\42\72\226\202\176\100\12", "\185\145\69\45\143"),[LUAOBFUSACTOR_DECRYPT_STR_0("\169\30\21\170\222\139\28\18", "\188\234\127\121\198")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\12\58\22\195\45\33\22\145\120\38\18\147\40\55\23\195\23\57\18\154\121", "\227\88\82\115"));
+	end}}});
+	ToggleCallback(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\113\26\170\171\11\112\66\11\191\163\49\103\76\13\187\160\7", "\19\35\127\218\199\98")).RemoteEvents.Drop, Value);
+end});
+local AutoSellToggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\50\250\7\231", "\130\124\155\106")]=LUAOBFUSACTOR_DECRYPT_STR_0("\244\222\226\160\227\197\121\179\217", "\223\181\171\150\207\195\150\28"),[LUAOBFUSACTOR_DECRYPT_STR_0("\111\47\241\188\12\66\46\213\175\5\89\63", "\105\44\90\131\206")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\217\236\179\190", "\94\159\128\210\217\104")]=LUAOBFUSACTOR_DECRYPT_STR_0("\113\236\18\176\108\122\245\118\100\246\1\184\83\122", "\26\48\153\102\223\63\31\153"),[LUAOBFUSACTOR_DECRYPT_STR_0("\33\65\225\255\0\65\238\248", "\147\98\32\141")]=function(Value)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\44\74\247\198\3", "\43\120\35\131\170\102\54")]=LUAOBFUSACTOR_DECRYPT_STR_0("\117\19\147\185\150\181\136\88\70\174\162\160\189\196\103\19\132\181\160\163\130\65\10\198", "\228\52\102\231\214\197\208"),[LUAOBFUSACTOR_DECRYPT_STR_0("\61\239\123\222\239\133\13", "\182\126\128\21\170\138\235\121")]=LUAOBFUSACTOR_DECRYPT_STR_0("\191\213\50\225\138\22\106\70\164\244", "\102\235\186\85\134\230\115\80"),[LUAOBFUSACTOR_DECRYPT_STR_0("\115\25\44\94\102\221\45\89", "\66\55\108\94\63\18\180")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\61\128\132\48\34", "\57\116\237\229\87\71")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\139\178\249\238\120\224\84", "\39\202\209\141\135\23\142")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\214\52\7\5\32\253", "\152\159\83\105\106\82")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\175\199\92\247", "\60\225\166\49\146\169")]=LUAOBFUSACTOR_DECRYPT_STR_0("\12\17\42\39\18\70\110\95", "\103\79\126\79\74\97"),[LUAOBFUSACTOR_DECRYPT_STR_0("\153\126\223\127\92\27\185\116", "\122\218\31\179\19\62")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\135\222\200\129\220\178\64\161\150\217\192\217\177\64\183\150\226\202\200\184\4", "\37\211\182\173\161\169\193"));
+	end}}});
+	ToggleCallback(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\197\63\93\213\33\120\184\227\63\73\234\60\116\171\246\61\72", "\217\151\90\45\185\72\27")).RemoteEvents.Sell, Value);
+end});
+local AutoEquipToggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\237\125\234\23", "\54\163\28\135\114")]=LUAOBFUSACTOR_DECRYPT_STR_0("\9\206\73\141\14\90\57\206\84\146", "\31\72\187\61\226\46"),[LUAOBFUSACTOR_DECRYPT_STR_0("\224\19\81\192\66\112\48\245\7\79\199\66", "\68\163\102\35\178\39\30")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\152\124\219\192", "\113\222\16\186\167\99\213\227")]=LUAOBFUSACTOR_DECRYPT_STR_0("\15\27\239\249\11\31\238\255\62\58\244\241\41\2\254", "\150\78\110\155"),[LUAOBFUSACTOR_DECRYPT_STR_0("\166\196\43\237\166\31\188\75", "\32\229\165\71\129\196\126\223")]=function(Value)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\247\128\208\141\132", "\181\163\233\164\225\225")]=LUAOBFUSACTOR_DECRYPT_STR_0("\113\158\42\120\117\154\43\126\64\203\23\99\85\134\126\68\69\136\61\114\67\141\43\123\17", "\23\48\235\94"),[LUAOBFUSACTOR_DECRYPT_STR_0("\95\213\214\73\82\61\198", "\178\28\186\184\61\55\83")]=LUAOBFUSACTOR_DECRYPT_STR_0("\240\194\64\59\254\11\175\132\226\105", "\149\164\173\39\92\146\110"),[LUAOBFUSACTOR_DECRYPT_STR_0("\215\50\2\30\14\18\252\41", "\123\147\71\112\127\122")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\229\192\131\118\67", "\38\172\173\226\17")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\108\18\56\230\66\31\63", "\143\45\113\76")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\145\191\18\51\170\189", "\92\216\216\124")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\117\51\161\69", "\157\59\82\204\32")]=LUAOBFUSACTOR_DECRYPT_STR_0("\27\49\230\247\250\171\146\240", "\209\88\94\131\154\137\138\179"),[LUAOBFUSACTOR_DECRYPT_STR_0("\11\160\200\112\28\34\50\41", "\66\72\193\164\28\126\67\81")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\211\36\173\24\51\101\226\62\232\76\39\102\247\41\172\24\9\125\230\53\233", "\22\135\76\200\56\70"));
+	end}}});
+	ToggleCallback(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\191\53\232\40\84\226\140\36\253\32\110\245\130\34\249\35\88", "\129\237\80\152\68\61")).RemoteEvents.Equip, Value);
+end});
+local Tab = Window:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\127\173\19\179\53\3\93\92\187", "\56\49\200\100\147\124\119"), 4483362458);
+local Section = Tab:CreateSection(LUAOBFUSACTOR_DECRYPT_STR_0("\226\59\168\176\229\42\186\253\223", "\144\172\94\223"));
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\10\14\175\66", "\39\68\111\194")]=LUAOBFUSACTOR_DECRYPT_STR_0("\244\179\254\135\85\190\218\230\195\210\125\178", "\215\182\198\135\167\25"),[LUAOBFUSACTOR_DECRYPT_STR_0("\174\72\230\68\143\72\233\67", "\40\237\41\138")]=function()
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\235\125\246\184\110\210\112\255\184\120\194\117\246", "\42\167\20\154\152")};
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\120\251\178\78\120\34\75\234\167\70\66\53\69\236\163\69\116", "\65\42\158\194\34\17")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\52\38\95\9", "\142\122\71\50\108\77\141\123")]=LUAOBFUSACTOR_DECRYPT_STR_0("\55\183\230\88\23\28\174\191\48\58\22\169\250\10", "\91\117\194\159\120"),[LUAOBFUSACTOR_DECRYPT_STR_0("\57\28\50\20\55\240\39\17", "\68\122\125\94\120\85\145")]=function()
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\59\21\195\30\236\204\190\18", "\218\119\124\175\62\168\185")};
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\151\245\88\200\172\243\73\208\160\244\123\208\170\226\73\195\160", "\164\197\144\40")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\173\241\167\142", "\214\227\144\202\235\189")]=LUAOBFUSACTOR_DECRYPT_STR_0("\207\176\158\59\32\166\73\38\225\160\199\80\21\170", "\92\141\197\231\27\112\211\51"),[LUAOBFUSACTOR_DECRYPT_STR_0("\197\254\134\175\211\231\252\129", "\177\134\159\234\195")]=function()
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\141\254\37\186\197\184\171\20\165\208", "\169\221\139\95\192")};
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\236\142\111\51\43\37\223\159\122\59\17\50\209\153\126\56\39", "\70\190\235\31\95\66")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\148\227\23\227", "\133\218\130\122\134")]=LUAOBFUSACTOR_DECRYPT_STR_0("\30\234\250\132\236\182\34\38\243\230\214\156\139\61\61\251", "\88\92\159\131\164\188\195"),[LUAOBFUSACTOR_DECRYPT_STR_0("\163\47\179\71\213\234\222\139", "\189\224\78\223\43\183\139")]=function()
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\30\233\144\12\205\43\238\202\62\196\47\248", "\161\78\156\234\118")};
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\149\178\217\208\174\180\200\200\162\179\250\200\168\165\200\219\162", "\188\199\215\169")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+end});
+local Section = Tab:CreateSection(LUAOBFUSACTOR_DECRYPT_STR_0("\216\12\82\116\239\243\27\88\122\230\188\32\75\126\229\239", "\136\156\105\63\27"));
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\53\141\116\49", "\84\123\236\25")]=LUAOBFUSACTOR_DECRYPT_STR_0("\210\158\179\87\136\176\253\132\173\24\190\178\241\133\234\60\173\162\241\130\163", "\213\144\235\202\119\204"),[LUAOBFUSACTOR_DECRYPT_STR_0("\0\25\210\38\42\34\78\40", "\45\67\120\190\74\72\67")]=function()
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\4\39\224\170\254\135\252\238\33\44\173\142\248\159\239\224\41", "\137\64\66\141\197\153\232\142")};
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\49\213\50\170\129\0\209\54\163\140\48\196\45\180\137\4\213", "\232\99\176\66\198")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\194\32\37\3", "\76\140\65\72\102\27\237\153")]=LUAOBFUSACTOR_DECRYPT_STR_0("\104\207\15\146\243\4\179\69\221\25\192\208\0\176", "\222\42\186\118\178\183\97"),[LUAOBFUSACTOR_DECRYPT_STR_0("\126\237\72\134\95\237\71\129", "\234\61\140\36")]=function()
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\5\216\183\125\8\46\207\189\115\1", "\111\65\189\218\18")};
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\113\78\11\57\2\95\174\87\78\31\6\31\83\189\66\76\30", "\207\35\43\123\85\107\60")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+end});
+local Section = Tab:CreateSection(LUAOBFUSACTOR_DECRYPT_STR_0("\81\191\180\229\91\101\179\224\196\124\103\234\137\254\124\125\185", "\25\16\202\192\138"));
+local isBuying = false;
+local Toggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\211\202\160\231", "\148\157\171\205\130\201")]=LUAOBFUSACTOR_DECRYPT_STR_0("\2\193\96\38\243\227\58\148\88\32\221\182\7\193\112\44", "\150\67\180\20\73\177"),[LUAOBFUSACTOR_DECRYPT_STR_0("\174\13\8\95\136\22\14\123\140\20\15\72", "\45\237\120\122")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\241\228\163\43", "\76\183\136\194")]=LUAOBFUSACTOR_DECRYPT_STR_0("\78\233\226\63\92\74\69", "\116\26\134\133\88\48\47"),[LUAOBFUSACTOR_DECRYPT_STR_0("\61\192\172\232\191\115\29\202", "\18\126\161\192\132\221")]=function(Value)
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\115\33\162\68\114\74\44\171\68\100\90\41\162", "\54\63\72\206\100")};
+	if Value then
+		isBuying = true;
+		while isBuying do
+			game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\250\92\85\118\236\120\201\77\64\126\214\111\199\75\68\125\224", "\27\168\57\37\26\133")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+			wait(1);
+		end
+	else
+		isBuying = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\3\171\113\173", "\183\77\202\28\200")]=LUAOBFUSACTOR_DECRYPT_STR_0("\54\38\157\7\53\38\144\72\59\58\133\72\63\50\138\3\18\33", "\104\119\83\233"),[LUAOBFUSACTOR_DECRYPT_STR_0("\214\237\53\48\70\251\236\17\35\79\224\253", "\35\149\152\71\66")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\63\228\67\183", "\90\121\136\34\208")]=LUAOBFUSACTOR_DECRYPT_STR_0("\243\1\82\25\203\11\4", "\126\167\110\53"),[LUAOBFUSACTOR_DECRYPT_STR_0("\30\17\34\244\222\62\62\27", "\95\93\112\78\152\188")]=function(Value)
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\237\252\137\85\192\171\214\196", "\178\161\149\229\117\132\222")};
+	if Value then
+		isBuying = true;
+		while isBuying do
+			game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\186\222\205\160\168\21\167\55\141\223\238\184\174\4\167\36\141", "\67\232\187\189\204\193\118\198")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+			wait(1);
+		end
+	else
+		isBuying = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\165\47\184\37", "\143\235\78\213\64\91\98")]=LUAOBFUSACTOR_DECRYPT_STR_0("\172\93\144\230\82\163\148\8\180\252\106\172\129\77\150\169\88\179\140\76", "\214\237\40\228\137\16"),[LUAOBFUSACTOR_DECRYPT_STR_0("\166\246\253\203\6\168\145\213\238\213\22\163", "\198\229\131\143\185\99")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\119\128\169\116", "\19\49\236\200")]=LUAOBFUSACTOR_DECRYPT_STR_0("\202\56\241\176\232\191\173", "\218\158\87\150\215\132"),[LUAOBFUSACTOR_DECRYPT_STR_0("\216\31\213\238\52\35\206\240", "\173\155\126\185\130\86\66")]=function(Value)
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\213\179\160\221\132\233\247\230\146\194\137\232", "\140\133\198\218\167\232")};
+	if Value then
+		isBuying = true;
+		while isBuying do
+			game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\135\43\164\113\141\182\47\160\120\128\134\58\187\111\133\178\43", "\228\213\78\212\29")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+			wait(1);
+		end
+	else
+		isBuying = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\169\77\187\0", "\139\231\44\214\101")]=LUAOBFUSACTOR_DECRYPT_STR_0("\248\250\18\81\50\164\40\86\233\250\28\68\28\180\113\61\220\246", "\118\185\143\102\62\112\209\81"),[LUAOBFUSACTOR_DECRYPT_STR_0("\127\101\59\244\160\27\8\14\93\124\60\227", "\88\60\16\73\134\197\117\124")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\118\230\249\207", "\33\48\138\152\168")]=LUAOBFUSACTOR_DECRYPT_STR_0("\70\25\55\86\205\50\32", "\87\18\118\80\49\161"),[LUAOBFUSACTOR_DECRYPT_STR_0("\111\31\214\172\178\77\29\209", "\208\44\126\186\192")]=function(Value)
+	local args = {[1]=LUAOBFUSACTOR_DECRYPT_STR_0("\199\15\190\220\24\249\137\101\242\3", "\46\151\122\196\166\116\156\169")};
+	if Value then
+		isBuying = true;
+		while isBuying do
+			game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\215\232\86\22\242\230\236\82\31\255\214\249\73\8\250\226\232", "\155\133\141\38\122")).RemoteEvents.BuyItemCash:FireServer(unpack(args));
+			wait(1);
+		end
+	else
+		isBuying = false;
+	end
+end});
+local Tab = Window:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\109\12\137\8\15\75\183\42\38\160\1\124\107\176\35\44", "\197\69\74\204\33\47\31"), 4483362458);
+local Toggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\222\78\87\130", "\231\144\47\58")]=LUAOBFUSACTOR_DECRYPT_STR_0("\227\138\138\53\62\50\217", "\89\210\184\186\21\120\93\175"),[LUAOBFUSACTOR_DECRYPT_STR_0("\146\70\110\199\124\52\165\101\125\217\108\63", "\90\209\51\28\181\25")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\246\119\86\233", "\223\176\27\55\142")]=LUAOBFUSACTOR_DECRYPT_STR_0("\16\180\201\178\40\190\159", "\213\68\219\174"),[LUAOBFUSACTOR_DECRYPT_STR_0("\40\225\47\235\40\196\60\116", "\31\107\128\67\135\74\165\95")]=function(Value)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\236\225\232\65\68", "\209\184\136\156\45\33")]=LUAOBFUSACTOR_DECRYPT_STR_0("\52\221\118\11\189\20\137", "\216\103\168\21\104"),[LUAOBFUSACTOR_DECRYPT_STR_0("\91\162\77\176\125\163\87", "\196\24\205\35")]=LUAOBFUSACTOR_DECRYPT_STR_0("\7\141\163\19\110\153\246\8\110\159\235\15\61\203\244\15\34\135\163\52\43\157\230\20\58", "\102\78\235\131"),[LUAOBFUSACTOR_DECRYPT_STR_0("\222\59\38\69\83\48\184\58", "\84\154\78\84\36\39\89\215")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\212\236\87\95\0", "\101\157\129\54\56")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\60\170\158\162\44\119\14", "\25\125\201\234\203\67")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\80\243\22\12\6\34", "\115\25\148\120\99\116\71")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\34\60\180\33", "\33\108\93\217\68")]=LUAOBFUSACTOR_DECRYPT_STR_0("\232\94\179\168\155\105\180\169\223\82\224", "\205\187\43\193"),[LUAOBFUSACTOR_DECRYPT_STR_0("\221\115\9\211\252\115\6\212", "\191\158\18\101")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\241\203\130\247\186\214\198\149\247\187\196\211\151\178\171\133\236\140\182\182\132", "\207\165\163\231\215"));
+	end}}});
+	if Value then
+		game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\241\246\235\93\55\96\199\250\252", "\16\166\153\153\54\68")).CurrentCamera.FieldOfView = 120;
+	else
+		game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\229\188\210\77\39\49\248\209\182", "\153\178\211\160\38\84\65")).CurrentCamera.FieldOfView = 70;
+	end
+end});
+local Slider = Tab:CreateSlider({[LUAOBFUSACTOR_DECRYPT_STR_0("\172\10\87\46", "\75\226\107\58")]=LUAOBFUSACTOR_DECRYPT_STR_0("\104\210\16\99\20\208\141\107\206\20\127\21", "\173\56\190\113\26\113\162"),[LUAOBFUSACTOR_DECRYPT_STR_0("\249\223\35\2\242", "\151\171\190\77\101")]={0,100},[LUAOBFUSACTOR_DECRYPT_STR_0("\236\33\251\187\253\112\14\203\59", "\107\165\79\152\201\152\29")]=10,[LUAOBFUSACTOR_DECRYPT_STR_0("\100\91\238\205\93\103", "\31\55\46\136\171\52")]="%",[LUAOBFUSACTOR_DECRYPT_STR_0("\242\61\206\230\212\38\200\194\208\36\201\241", "\148\177\72\188")]=50,[LUAOBFUSACTOR_DECRYPT_STR_0("\128\186\86\212", "\179\198\214\55")]=LUAOBFUSACTOR_DECRYPT_STR_0("\195\28\119\115\65\224\252\5\118\115\87", "\179\144\108\18\22\37"),[LUAOBFUSACTOR_DECRYPT_STR_0("\229\162\23\133\205\199\160\16", "\175\166\195\123\233")]=function(Value)
+	local player = game.Players.LocalPlayer;
+	local speed = (Value / 100) * 50;
+	player.Character.Humanoid.WalkSpeed = speed;
+end});
+local Toggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\193\195\80\76", "\144\143\162\61\41")]=LUAOBFUSACTOR_DECRYPT_STR_0("\216\158\47\81\107\199\7\239\212\26\92\119", "\83\128\179\125\48\18\231"),[LUAOBFUSACTOR_DECRYPT_STR_0("\126\162\225\207\66\16\73\129\242\209\82\27", "\126\61\215\147\189\39")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\94\243\28\66", "\37\24\159\125")]=LUAOBFUSACTOR_DECRYPT_STR_0("\226\148\116\91\238\169\114\69\214\163", "\34\186\198\21"),[LUAOBFUSACTOR_DECRYPT_STR_0("\219\9\201\81\192\249\11\206", "\162\152\104\165\61")]=function(Value)
+	local player = game.Players.LocalPlayer;
+	local xRayValue = player:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\245\29\179\100", "\133\173\79\210\29\16"));
+	if xRayValue then
+		xRayValue.Value = Value;
+	end
+end});
+local player = game.Players.LocalPlayer;
+local function ResetPlayer()
+	local humanoidRootPart = player.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\165\105\224\42\131\115\228\47\191\115\226\63\189\125\255\63", "\75\237\28\141"));
+	local startPosition = Vector3.new(0, 5, 0);
+	if humanoidRootPart then
+		humanoidRootPart.CFrame = CFrame.new(startPosition);
+	end
+end
+local Troll = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\242\94\193\180", "\129\188\63\172\209\79\123\135")]=LUAOBFUSACTOR_DECRYPT_STR_0("\102\193\166\249\79\241\229\197\0\194\234\196\78\227", "\173\32\132\134"),[LUAOBFUSACTOR_DECRYPT_STR_0("\109\26\4\227\172\48\206\69", "\173\46\123\104\143\206\81")]=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt", true))();
+end});
+local reset = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\154\28\47\143", "\97\212\125\66\234\37\227")]=LUAOBFUSACTOR_DECRYPT_STR_0("\171\246\162\58\44\143\240\179\33", "\126\234\131\214\85"),[LUAOBFUSACTOR_DECRYPT_STR_0("\167\212\69\86\77\133\214\66", "\47\228\181\41\58")]=function()
+	ResetPlayer();
+end});
+local Admin = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\136\253\212\62", "\127\198\156\185\91\99\80")]=LUAOBFUSACTOR_DECRYPT_STR_0("\220\20\202\249\169\2\45\219\181\35\197\245\171\15", "\190\149\122\172\144\199\107\89"),[LUAOBFUSACTOR_DECRYPT_STR_0("\17\4\253\242\252\51\6\250", "\158\82\101\145\158")]=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();
+end});
+local player = game.Players.LocalPlayer;
+local ragdollActive = false;
+local RagdollKeybind = Tab:CreateKeybind({[LUAOBFUSACTOR_DECRYPT_STR_0("\94\255\15\19", "\36\16\158\98\118")]=LUAOBFUSACTOR_DECRYPT_STR_0("\242\23\196\255\87\228\43\165\235\19\218\249\81\230\35", "\133\160\118\163\155\56\136\71"),[LUAOBFUSACTOR_DECRYPT_STR_0("\213\183\99\224\179\17\161\221\167\104\240\191\17\177", "\213\150\194\17\146\214\127")]="R",[LUAOBFUSACTOR_DECRYPT_STR_0("\51\166\168\208\114\171\139\56\15\172\182\213\69\176", "\86\123\201\196\180\38\196\194")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\209\228\216\168", "\207\151\136\185")]=LUAOBFUSACTOR_DECRYPT_STR_0("\154\130\47\134\123\116\125\131\134\49\128\125\118\117", "\17\200\227\72\226\20\24"),[LUAOBFUSACTOR_DECRYPT_STR_0("\147\64\23\219\203\240\236\244", "\159\208\33\123\183\169\145\143")]=function(Keybind)
+	ragdollActive = not ragdollActive;
+	local humanoid = player.Character and player.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\218\79\53\55\252\85\49\50", "\86\146\58\88"));
+	if humanoid then
+		if ragdollActive then
+			humanoid:ChangeState(Enum.HumanoidStateType.Physics);
+		else
+			humanoid:ChangeState(Enum.HumanoidStateType.Seated);
+		end
+	end
+end});
+local ESPToggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\118\222\231\197", "\154\56\191\138\160\206\137\86")]=LUAOBFUSACTOR_DECRYPT_STR_0("\163\106\197\199\72\53\134\203\138\92", "\172\230\57\149\231\28\90\225"),[LUAOBFUSACTOR_DECRYPT_STR_0("\33\191\148\192\45\213\22\156\135\222\61\222", "\187\98\202\230\178\72")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\7\237\165\55", "\42\65\129\196\80")]=LUAOBFUSACTOR_DECRYPT_STR_0("\39\121\109\238\24\0\5\226\7", "\142\98\42\61\186\119\103\98"),[LUAOBFUSACTOR_DECRYPT_STR_0("\27\190\14\4\58\190\1\3", "\104\88\223\98")]=function(Value)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\112\254\246\194\7", "\141\36\151\130\174\98")]=LUAOBFUSACTOR_DECRYPT_STR_0("\161\73\242", "\109\228\26\162"),[LUAOBFUSACTOR_DECRYPT_STR_0("\125\234\243\108\229\232\74", "\134\62\133\157\24\128")]=LUAOBFUSACTOR_DECRYPT_STR_0("\34\179\31\203\54\241\216\2\178\90\243\32\184\216\71\176\90\241\46\179\211\71\177\21\153\29\180\155\38\166\14\208\57\176\194\2", "\182\103\197\122\185\79\209"),[LUAOBFUSACTOR_DECRYPT_STR_0("\215\146\243\118\20\65\252\137", "\40\147\231\129\23\96")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\92\245\141\66\190", "\188\21\152\236\37\219\204")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\97\234\35\5\79\231\36", "\108\32\137\87")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\131\239\14\169\61\252", "\57\202\136\96\198\79\153\43")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\133\34\167\162", "\152\203\67\202\199\237\199")]=LUAOBFUSACTOR_DECRYPT_STR_0("\201\86\178\10\95\87\108\226\254\90\225", "\134\154\35\192\111\127\21\25"),[LUAOBFUSACTOR_DECRYPT_STR_0("\155\39\5\6\34\211\187\45", "\178\216\70\105\106\64")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\11\35\127\182\220\198\209\146\127\63\123\230\217\208\208\192\16\32\123\239\136", "\224\95\75\26\150\169\181\180"));
+	end}}});
+	local player = game.Players.LocalPlayer;
+	local ESPEnabled = false;
+	local function UpdateESP()
+		for _, otherPlayer in ipairs(game.Players:GetPlayers()) do
+			if ((otherPlayer ~= player) and otherPlayer.Character and otherPlayer.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\35\207\213\41\74\163\127\15\232\215\39\80\156\119\25\206", "\22\107\186\184\72\36\204"))) then
+				local rootPart = otherPlayer.Character.HumanoidRootPart;
+				if ESPEnabled then
+					local espBox = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\197\178\60\102\15\233\185\40\75\47\227\178\54\64\3\226\179\48", "\110\135\221\68\46"));
+					espBox.Size = rootPart.Size + Vector3.new(0.2, 0.2, 0.2);
+					espBox.Adornee = rootPart;
+					espBox.Color3 = Color3.fromRGB(255, 0, 0);
+					espBox.Transparency = 0.5;
+					espBox.ZIndex = 0;
+					espBox.Parent = rootPart;
+					local espName = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\193\63\0\231\204\188\58\241\50\43\254\199", "\91\131\86\108\139\174\211"));
+					espName.Size = UDim2.new(0, 200, 0, 50);
+					espName.Adornee = rootPart;
+					espName.StudsOffset = Vector3.new(0, 3, 0);
+					espName.AlwaysOnTop = true;
+					espName.MaxDistance = 100;
+					espName.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\213\42\181\18\105\250\44", "\61\155\75\216\119");
+					espName.Parent = rootPart;
+					local espText = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\48\174\170\40\116\8\223\1\167", "\189\100\203\210\92\56\105"));
+					espText.Size = UDim2.new(1, 0, 1, 0);
+					espText.BackgroundTransparency = 1;
+					espText.Text = otherPlayer.Name;
+					espText.Font = Enum.Font.SourceSansBold;
+					espText.TextColor3 = Color3.new(1, 1, 1);
+					espText.TextStrokeTransparency = 0.5;
+					espText.TextStrokeColor3 = Color3.new(0, 0, 0);
+					espText.TextSize = 20;
+					espText.Parent = espName;
+					local distance = (player.Character.HumanoidRootPart.Position - rootPart.Position).Magnitude;
+					if (distance < 10) then
+						espText.TextColor3 = Color3.fromRGB(0, 255, 0);
+					end
+				else
+					for _, obj in ipairs(rootPart:GetChildren()) do
+						if (obj:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\13\94\229\0\46\95\249\36\42\112\249\39\61\95\240\45\33\69", "\72\79\49\157")) or obj:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\170\185\61\176\138\191\48\174\140\151\36\181", "\220\232\208\81"))) then
+							obj:Destroy();
+						end
+					end
+				end
+			end
+		end
+	end
+	ESPEnabled = Value;
+	UpdateESP();
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\219\191\232\53", "\193\149\222\133\80\76\58")]=LUAOBFUSACTOR_DECRYPT_STR_0("\224\81\86\146\142\111\74\193\195\73\15\198\201\29\107\219\213\92\77\222\195\20", "\178\166\61\47"),[LUAOBFUSACTOR_DECRYPT_STR_0("\216\75\228\118\200\63\248\65", "\94\155\42\136\26\170")]=function()
+	local main = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\183\60\52\176\129\49\1\160\141", "\213\228\95\70"));
+	local Frame = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\12\169\195\137\114", "\23\74\219\162\228"));
+	local up = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\13\227\94\187\25\44\242\82\160\53", "\91\89\134\38\207"));
+	local function styleButton(up)
+		button.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+		button.TextColor3 = Color3.new(1, 1, 1);
+		button.Font = Enum.Font.Cartoon;
+		button.TextSize = 18;
+	end
+	local down = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\112\235\208\34\49\197\51\80\225\198", "\71\36\142\168\86\115\176"));
+	local function styleButton(down)
+		button.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+		button.TextColor3 = Color3.new(1, 1, 1);
+		button.Font = Enum.Font.Cartoon;
+		button.TextSize = 18;
+	end
+	local onof = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\235\164\106\171\33\171\66\93\208\175", "\41\191\193\18\223\99\222\54"));
+	local TextLabel = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\159\35\223\62\134\170\36\194\38", "\202\203\70\167\74"));
+	local plus = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\24\4\196\39\83\57\21\200\60\127", "\17\76\97\188\83"));
+	local function styleButton(plus)
+		button.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+		button.TextColor3 = Color3.new(1, 1, 1);
+		button.Font = Enum.Font.Cartoon;
+		button.TextSize = 18;
+	end
+	local speed = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\177\34\193\35\28\130\73\166\137", "\195\229\71\185\87\80\227\43"));
+	local function styleButton(speed)
+		button.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+		button.TextColor3 = Color3.new(1, 1, 1);
+		button.Font = Enum.Font.Cartoon;
+		button.TextSize = 18;
+	end
+	local mine = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\212\249\24\68\205\245\232\20\95\225", "\143\128\156\96\48"));
+	local function styleButton(mine)
+		button.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+		button.TextColor3 = Color3.new(1, 1, 1);
+		button.Font = Enum.Font.Cartoon;
+		button.TextSize = 18;
+	end
+	local closebutton = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\140\212\232\6\53\173\197\228\29\25", "\119\216\177\144\114"));
+	local mini = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\253\44\225\86\235\60\237\86\198\39", "\34\169\73\153"));
+	local function styleButton(mini)
+		button.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+		button.TextColor3 = Color3.new(1, 1, 1);
+		button.Font = Enum.Font.Cartoon;
+		button.TextSize = 18;
+	end
+	local mini2 = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\158\233\19\159\136\249\31\159\165\226", "\235\202\140\107"));
+	local function styleButton(mini2)
+		button.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+		button.TextColor3 = Color3.new(1, 1, 1);
+		button.Font = Enum.Font.Cartoon;
+		button.TextSize = 18;
+	end
+	main.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\1\117\61\166", "\165\108\20\84\200\137\71\151");
+	main.Parent = game.Players.LocalPlayer:WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\74\184\42\145\127\166\12\157\115", "\232\26\212\75"));
+	main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+	main.ResetOnSpawn = false;
+	Frame.Parent = main;
+	Frame.BackgroundColor3 = Color3.fromRGB(163, 255, 137);
+	Frame.BorderColor3 = Color3.fromRGB(103, 221, 213);
+	Frame.Position = UDim2.new(0.100320168, 0, 0.379746825, 0);
+	Frame.Size = UDim2.new(0, 190, 0, 57);
+	up.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\48\70\50\253\231", "\151\87\41\18\136");
+	up.Parent = Frame;
+	up.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	up.Size = UDim2.new(0, 44, 0, 28);
+	up.Font = Enum.Font.SourceSans;
+	up.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\110\191", "\158\59\207\170\176");
+	up.TextColor3 = Color3.fromRGB(0, 0, 0);
+	up.TextSize = 14;
+	down.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\72\81\115\77\131\88\80", "\236\47\62\83\41");
+	down.Parent = Frame;
+	down.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	down.Position = UDim2.new(0, 0, 0.491228074, 0);
+	down.Size = UDim2.new(0, 44, 0, 28);
+	down.Font = Enum.Font.Cartoon;
+	down.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\222\166\55\53", "\226\154\201\64\91\202");
+	down.TextColor3 = Color3.fromRGB(0, 0, 0);
+	down.TextSize = 14;
+	onof.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\206\71\18\30", "\220\161\41\125\120\42");
+	onof.Parent = Frame;
+	onof.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	onof.Position = UDim2.new(0.702823281, 0, 0.491228074, 0);
+	onof.Size = UDim2.new(0, 56, 0, 28);
+	onof.Font = Enum.Font.SourceSans;
+	onof.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\186\125\185", "\110\220\17\192");
+	onof.TextColor3 = Color3.fromRGB(0, 0, 0);
+	onof.TextSize = 14;
+	TextLabel.Parent = Frame;
+	TextLabel.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0);
+	TextLabel.Size = UDim2.new(0, 100, 0, 28);
+	TextLabel.Font = Enum.Font.Cartoon;
+	TextLabel.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\70\124\57\27\239\50\177\133\109\57\17\23\251\35\232\164\123\125\49\34", "\199\20\25\84\122\139\87\145");
+	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0);
+	TextLabel.TextScaled = true;
+	TextLabel.TextSize = 14;
+	TextLabel.TextWrapped = true;
+	plus.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\87\5\200\189", "\138\39\105\189\206\123");
+	plus.Parent = Frame;
+	plus.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	plus.Position = UDim2.new(0.231578946, 0, 0, 0);
+	plus.Size = UDim2.new(0, 45, 0, 28);
+	plus.Font = Enum.Font.Cartoon;
+	plus.Text = "+";
+	plus.TextColor3 = Color3.fromRGB(0, 0, 0);
+	plus.TextScaled = true;
+	plus.TextSize = 14;
+	plus.TextWrapped = true;
+	speed.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\12\23\140\40\247", "\159\127\103\233\77\147\153\175");
+	speed.Parent = Frame;
+	speed.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	speed.Position = UDim2.new(0.468421042, 0, 0.491228074, 0);
+	speed.Size = UDim2.new(0, 44, 0, 28);
+	speed.Font = Enum.Font.Cartoon;
+	speed.Text = "1";
+	speed.TextColor3 = Color3.fromRGB(0, 0, 0);
+	speed.TextScaled = true;
+	speed.TextSize = 14;
+	speed.TextWrapped = true;
+	mine.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\10\249\234\175", "\171\103\144\132\202\32");
+	mine.Parent = Frame;
+	mine.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	mine.Position = UDim2.new(0.231578946, 0, 0.491228074, 0);
+	mine.Size = UDim2.new(0, 45, 0, 29);
+	mine.Font = Enum.Font.Cartoon;
+	mine.Text = "-";
+	mine.TextColor3 = Color3.fromRGB(0, 0, 0);
+	mine.TextScaled = true;
+	mine.TextSize = 14;
+	mine.TextWrapped = true;
+	closebutton.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\56\38\237\9\80\9\229\21\80\26\192", "\108\112\79\137");
+	closebutton.Parent = main.Frame;
+	closebutton.BackgroundColor3 = Color3.fromRGB(225, 25, 0);
+	closebutton.Font = LUAOBFUSACTOR_DECRYPT_STR_0("\28\195\102\60\162\14\231", "\85\95\162\20\72\205\97\137");
+	closebutton.Size = UDim2.new(0, 45, 0, 28);
+	closebutton.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\211\248\38\217\25\253", "\173\151\157\74\188\109\152");
+	closebutton.TextSize = 20;
+	closebutton.Position = UDim2.new(0, 0, -1, 27);
+	mini.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\41\1\54\212\209\93\207\246", "\147\68\104\88\189\188\52\181");
+	mini.Parent = main.Frame;
+	mini.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	mini.Font = LUAOBFUSACTOR_DECRYPT_STR_0("\57\137\153\196\21\135\133", "\176\122\232\235");
+	mini.Size = UDim2.new(0, 45, 0, 28);
+	mini.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\131\121\53\92\235", "\142\224\21\90\47");
+	mini.TextSize = 20;
+	mini.Position = UDim2.new(0, 44, -1, 27);
+	mini2.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\121\221\41\95\169\130\159\113\134", "\229\20\180\71\54\196\235");
+	mini2.Parent = main.Frame;
+	mini2.BackgroundColor3 = Color3.fromRGB(169, 169, 169);
+	mini2.Font = LUAOBFUSACTOR_DECRYPT_STR_0("\10\127\211\247\250\165\142", "\224\73\30\161\131\149\202");
+	mini2.Size = UDim2.new(0, 45, 0, 28);
+	mini2.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\254\245\244\94", "\48\145\133\145");
+	mini2.TextSize = 20;
+	mini2.Position = UDim2.new(0, 44, -1, 57);
+	mini2.Visible = false;
+	speeds = 10;
+	local speaker = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\106\64\180\247\212\62\73", "\76\58\44\213\142\177")).LocalPlayer;
+	local chr = game.Players.LocalPlayer.Character;
+	local hum = chr and chr:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\227\49\31\44\118\196\45\22", "\24\171\68\114\77"));
+	nowe = false;
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\220\9\81\64\147\219\22\138\250\20", "\205\143\125\48\50\231\190\100")):SetCore(LUAOBFUSACTOR_DECRYPT_STR_0("\242\162\26\1\207\236\203\171\199\174\23\4\245\234\208\172", "\194\161\199\116\101\129\131\191"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\216\45\220\164\242", "\194\140\68\168\200\151")]=LUAOBFUSACTOR_DECRYPT_STR_0("\100\247\204\101\210\87\242", "\149\34\155\181\69"),[LUAOBFUSACTOR_DECRYPT_STR_0("\55\248\205\238", "\154\99\157\181")]=LUAOBFUSACTOR_DECRYPT_STR_0("\191\10\219\175\254\134\10\232\224\206\148\79\201\173\252\153\22\239\175\232\136\55", "\140\237\111\140\192"),[LUAOBFUSACTOR_DECRYPT_STR_0("\47\26\114\22", "\120\102\121\29")]="rbxthumb://type=Asset&id=5107182114&w=150&h=150"});
+	Duration = 5;
+	Frame.Active = true;
+	Frame.Draggable = true;
+	onof.MouseButton1Down:connect(function()
+		if (nowe == true) then
+			nowe = false;
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics, true);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming, true);
+			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics);
+		else
+			nowe = true;
+			for i = 1, speeds do
+				spawn(function()
+					local hb = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\158\246\183\8\169\241\175\50\175\230", "\91\204\131\217")).Heartbeat;
+					tpwalking = true;
+					local chr = game.Players.LocalPlayer.Character;
+					local hum = chr and chr:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\230\234\88\213\189\210\247\202", "\158\174\159\53\180\211\189"));
+					while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+						if (hum.MoveDirection.Magnitude > 0) then
+							chr:TranslateBy(hum.MoveDirection);
+						end
+					end
+				end);
+			end
+			game.Players.LocalPlayer.Character.Animate.Disabled = true;
+			local Char = game.Players.LocalPlayer.Character;
+			local Hum = Char:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\122\232\224\220\121\186\91\249", "\213\50\157\141\189\23")) or Char:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\223\40\141\173\115\176\247\41\138\131\125\170\234\52\139\172\126\161\236", "\196\158\70\228\192\18"));
+			for i, v in next, Hum:GetPlayingAnimationTracks() do
+				v:AdjustSpeed(0);
+			end
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics, false);
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming, false);
+			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming);
+		end
+		if (game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\122\83\16\87\220\88\76", "\185\42\63\113\46")).LocalPlayer.Character:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\252\200\44\56\21\219\212\37", "\123\180\189\65\89")).RigType == Enum.HumanoidRigType.R6) then
+			local plr = game.Players.LocalPlayer;
+			local torso = plr.Character.Torso;
+			local flying = true;
+			local deb = true;
+			local ctrl = {f=0,b=0,l=0,r=0};
+			local lastctrl = {f=0,b=0,l=0,r=0};
+			local maxspeed = 50;
+			local speed = 0;
+			local bg = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\224\131\244\253\174\219\158\255", "\233\162\236\144\132"), torso);
+			bg.P = 90000;
+			bg.maxTorque = Vector3.new(8999999488, 8999999488, 8999999488);
+			bg.cframe = torso.CFrame;
+			local bv = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\144\203\250\3\143\243\83\189\199\247\14\160", "\63\210\164\158\122\217\150"), torso);
+			bv.velocity = Vector3.new(0, 0.1, 0);
+			bv.maxForce = Vector3.new(8999999488, 8999999488, 8999999488);
+			if (nowe == true) then
+				plr.Character.Humanoid.PlatformStand = true;
+			end
+			while (nowe == true) or (game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\3\199\247\245\76\234\32", "\152\83\171\150\140\41")).LocalPlayer.Character.Humanoid.Health == 0) do
+				game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\176\240\141\0\209\9\30\139\230\134", "\104\226\133\227\83\180\123")).RenderStepped:Wait();
+				if (((ctrl.l + ctrl.r) ~= 0) or ((ctrl.f + ctrl.b) ~= 0)) then
+					speed = speed + 0.5 + (speed / maxspeed);
+					if (speed > maxspeed) then
+						speed = maxspeed;
+					end
+				elseif (not (((ctrl.l + ctrl.r) ~= 0) or ((ctrl.f + ctrl.b) ~= 0)) and (speed ~= 0)) then
+					speed = speed - 1;
+					if (speed < 0) then
+						speed = 0;
+					end
+				end
+				if (((ctrl.l + ctrl.r) ~= 0) or ((ctrl.f + ctrl.b) ~= 0)) then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f + ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l + ctrl.r, (ctrl.f + ctrl.b) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed;
+					lastctrl = {f=ctrl.f,b=ctrl.b,l=ctrl.l,r=ctrl.r};
+				elseif (((ctrl.l + ctrl.r) == 0) and ((ctrl.f + ctrl.b) == 0) and (speed ~= 0)) then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f + lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l + lastctrl.r, (lastctrl.f + lastctrl.b) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed;
+				else
+					bv.velocity = Vector3.new(0, 0, 0);
+				end
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad(((ctrl.f + ctrl.b) * 50 * speed) / maxspeed), 0, 0);
+			end
+			ctrl = {f=0,b=0,l=0,r=0};
+			lastctrl = {f=0,b=0,l=0,r=0};
+			speed = 0;
+			bg:Destroy();
+			bv:Destroy();
+			plr.Character.Humanoid.PlatformStand = false;
+			game.Players.LocalPlayer.Character.Animate.Disabled = false;
+			tpwalking = false;
+		else
+			local plr = game.Players.LocalPlayer;
+			local UpperTorso = plr.Character.UpperTorso;
+			local flying = true;
+			local deb = true;
+			local ctrl = {f=0,b=0,l=0,r=0};
+			local lastctrl = {f=0,b=0,l=0,r=0};
+			local maxspeed = 50;
+			local speed = 0;
+			local bg = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\33\4\39\73\36\18\49\95", "\48\99\107\67"), UpperTorso);
+			bg.P = 90000;
+			bg.maxTorque = Vector3.new(8999999488, 8999999488, 8999999488);
+			bg.cframe = UpperTorso.CFrame;
+			local bv = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\252\169\121\201\27\126\210\169\126\217\57\98", "\27\190\198\29\176\77"), UpperTorso);
+			bv.velocity = Vector3.new(0, 0.1, 0);
+			bv.maxForce = Vector3.new(8999999488, 8999999488, 8999999488);
+			if (nowe == true) then
+				plr.Character.Humanoid.PlatformStand = true;
+			end
+			while (nowe == true) or (game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\223\71\252\45\172\92\252", "\46\143\43\157\84\201")).LocalPlayer.Character.Humanoid.Health == 0) do
+				wait();
+				if (((ctrl.l + ctrl.r) ~= 0) or ((ctrl.f + ctrl.b) ~= 0)) then
+					speed = speed + 0.5 + (speed / maxspeed);
+					if (speed > maxspeed) then
+						speed = maxspeed;
+					end
+				elseif (not (((ctrl.l + ctrl.r) ~= 0) or ((ctrl.f + ctrl.b) ~= 0)) and (speed ~= 0)) then
+					speed = speed - 1;
+					if (speed < 0) then
+						speed = 0;
+					end
+				end
+				if (((ctrl.l + ctrl.r) ~= 0) or ((ctrl.f + ctrl.b) ~= 0)) then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f + ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l + ctrl.r, (ctrl.f + ctrl.b) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed;
+					lastctrl = {f=ctrl.f,b=ctrl.b,l=ctrl.l,r=ctrl.r};
+				elseif (((ctrl.l + ctrl.r) == 0) and ((ctrl.f + ctrl.b) == 0) and (speed ~= 0)) then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f + lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l + lastctrl.r, (lastctrl.f + lastctrl.b) * 0.2, 0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p)) * speed;
+				else
+					bv.velocity = Vector3.new(0, 0, 0);
+				end
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad(((ctrl.f + ctrl.b) * 50 * speed) / maxspeed), 0, 0);
+			end
+			ctrl = {f=0,b=0,l=0,r=0};
+			lastctrl = {f=0,b=0,l=0,r=0};
+			speed = 0;
+			bg:Destroy();
+			bv:Destroy();
+			plr.Character.Humanoid.PlatformStand = false;
+			game.Players.LocalPlayer.Character.Animate.Disabled = false;
+			tpwalking = false;
+		end
+	end);
+	local tis;
+	up.MouseButton1Down:connect(function()
+		tis = up.MouseEnter:connect(function()
+			while tis do
+				wait();
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, 1, 0);
+			end
+		end);
+	end);
+	up.MouseLeave:connect(function()
+		if tis then
+			tis:Disconnect();
+			tis = nil;
+		end
+	end);
+	local dis;
+	down.MouseButton1Down:connect(function()
+		dis = down.MouseEnter:connect(function()
+			while dis do
+				wait();
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -1, 0);
+			end
+		end);
+	end);
+	down.MouseLeave:connect(function()
+		if dis then
+			dis:Disconnect();
+			dis = nil;
+		end
+	end);
+	game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\103\116\87\219\90\1\219", "\168\55\24\54\162\63\115")).LocalPlayer.CharacterAdded:Connect(function(char)
+		wait(0.7);
+		game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false;
+		game.Players.LocalPlayer.Character.Animate.Disabled = false;
+	end);
+	plus.MouseButton1Down:connect(function()
+		speeds = speeds + 1;
+		speed.Text = speeds;
+		if (nowe == true) then
+			tpwalking = false;
+			for i = 1, speeds do
+				spawn(function()
+					local hb = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\37\239\46\179\215\220\1\243\35\133", "\174\119\154\64\224\178")).Heartbeat;
+					tpwalking = true;
+					local chr = game.Players.LocalPlayer.Character;
+					local hum = chr and chr:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\2\107\200\122\11\168\19\224", "\132\74\30\165\27\101\199\122"));
+					while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+						if (hum.MoveDirection.Magnitude > 0) then
+							chr:TranslateBy(hum.MoveDirection);
+						end
+					end
+				end);
+			end
+		end
+	end);
+	mine.MouseButton1Down:connect(function()
+		if (speeds == 1) then
+			speed.Text = LUAOBFUSACTOR_DECRYPT_STR_0("\44\230\241\169\168\161\244\45\226\191\171\162\166\167\111\243\247\166\169\245\229", "\212\79\135\159\199\199\213");
+			wait(1);
+			speed.Text = speeds;
+		else
+			speeds = speeds - 1;
+			speed.Text = speeds;
+			if (nowe == true) then
+				tpwalking = false;
+				for i = 1, speeds do
+					spawn(function()
+						local hb = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\75\181\187\116\89\197\14\112\163\176", "\120\25\192\213\39\60\183")).Heartbeat;
+						tpwalking = true;
+						local chr = game.Players.LocalPlayer.Character;
+						local hum = chr and chr:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\48\85\50\73\22\79\54\76", "\40\120\32\95"));
+						while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+							if (hum.MoveDirection.Magnitude > 0) then
+								chr:TranslateBy(hum.MoveDirection);
+							end
+						end
+					end);
+				end
+			end
+		end
+	end);
+	closebutton.MouseButton1Click:Connect(function()
+		main:Destroy();
+	end);
+	mini.MouseButton1Click:Connect(function()
+		up.Visible = false;
+		down.Visible = false;
+		onof.Visible = false;
+		plus.Visible = false;
+		speed.Visible = false;
+		mine.Visible = false;
+		mini.Visible = false;
+		mini2.Visible = true;
+		main.Frame.BackgroundTransparency = 1;
+		closebutton.Position = UDim2.new(0, 0, -1, 57);
+	end);
+	mini2.MouseButton1Click:Connect(function()
+		up.Visible = true;
+		down.Visible = true;
+		onof.Visible = true;
+		plus.Visible = true;
+		speed.Visible = true;
+		mine.Visible = true;
+		mini.Visible = true;
+		mini2.Visible = false;
+		main.Frame.BackgroundTransparency = 0;
+		closebutton.Position = UDim2.new(0, 0, -1, 27);
+	end);
+end});
+local DaysToggle = Tab:CreateToggle({[LUAOBFUSACTOR_DECRYPT_STR_0("\20\170\52\127", "\127\90\203\89\26\207")]=LUAOBFUSACTOR_DECRYPT_STR_0("\252\54\172\196\28\243\201\17\174\210\26\189\238\37\182\139\61\242\218\50\163\206\73\181\255\0\136\130", "\157\189\85\207\171\105"),[LUAOBFUSACTOR_DECRYPT_STR_0("\229\180\202\167\6\200\181\238\180\15\211\164", "\99\166\193\184\213")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\240\187\129\188", "\234\182\215\224\219\108")]=LUAOBFUSACTOR_DECRYPT_STR_0("\228\128\162\38\244\142\188\50\204\132", "\85\160\225\219"),[LUAOBFUSACTOR_DECRYPT_STR_0("\127\4\143\197\52\221\72\87", "\43\60\101\227\169\86\188")]=function(Value)
+	Rayfield:Notify({[LUAOBFUSACTOR_DECRYPT_STR_0("\68\193\197\179\95", "\87\16\168\177\223\58\172\217")]=LUAOBFUSACTOR_DECRYPT_STR_0("\21\206\90\210\46\58\217\125\220\34\39\141\124\238\11", "\91\84\173\57\189"),[LUAOBFUSACTOR_DECRYPT_STR_0("\51\182\2\232\165\216\4", "\182\112\217\108\156\192")]=LUAOBFUSACTOR_DECRYPT_STR_0("\143\30\77\253\146\234\6\77\248\203\128\7\65\225\203\191\72\96\238\137\175\72\92\224\203\152\13\5\206\136\190\1\94\238\159\175", "\235\202\104\40\143"),[LUAOBFUSACTOR_DECRYPT_STR_0("\41\158\9\184\25\130\20\183", "\217\109\235\123")]=6.5,[LUAOBFUSACTOR_DECRYPT_STR_0("\14\132\127\81\117", "\221\71\233\30\54\16\176\173")]=4483362458,[LUAOBFUSACTOR_DECRYPT_STR_0("\21\255\74\182\59\242\77", "\223\84\156\62")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\255\251\236\210\165\62", "\91\182\156\130\189\215")]={[LUAOBFUSACTOR_DECRYPT_STR_0("\80\114\161\80", "\53\30\19\204")]=LUAOBFUSACTOR_DECRYPT_STR_0("\202\245\98\129\231\219\245\116\128\190\184", "\199\153\128\16\228"),[LUAOBFUSACTOR_DECRYPT_STR_0("\242\43\233\21\165\208\41\238", "\199\177\74\133\121")]=function()
+		print(LUAOBFUSACTOR_DECRYPT_STR_0("\140\193\185\190\34\213\47\170\137\168\255\39\214\47\188\137\147\245\54\223\107", "\74\216\169\220\158\87\166"));
+	end}}});
+	local player = game.Players.LocalPlayer;
+	local espEnabled = false;
+	local function UpdatePlayerDays()
+		for _, otherPlayer in ipairs(game.Players:GetPlayers()) do
+			if (otherPlayer ~= player) then
+				local daysText = otherPlayer:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\204\34\10\63\110\237\59\7", "\58\136\67\115\76"));
+				if (espEnabled and otherPlayer.AccountAge and daysText) then
+					daysText:Destroy();
+				end
+				if (espEnabled and otherPlayer.AccountAge) then
+					daysText = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\211\163\212\85\135\47\170\79\245\141\205\80", "\61\145\202\184\57\229\64\203"));
+					daysText.Size = UDim2.new(0, 100, 0, 50);
+					daysText.Adornee = otherPlayer.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\116\87\136\67", "\39\60\50\233"));
+					daysText.StudsOffset = Vector3.new(0, 3, 0);
+					daysText.AlwaysOnTop = true;
+					daysText.Name = LUAOBFUSACTOR_DECRYPT_STR_0("\62\50\186\63\182\45\170\183", "\195\122\83\195\76\226\72\210");
+					daysText.Parent = otherPlayer.Character:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\204\209\58\250", "\65\132\180\91\158"));
+					local daysTextLabel = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\49\121\201\58\41\125\211\43\9", "\78\101\28\177"));
+					daysTextLabel.Size = UDim2.new(1, 0, 1, 0);
+					daysTextLabel.BackgroundTransparency = 1;
+					local accountAge = otherPlayer.AccountAge;
+					daysTextLabel.Text = accountAge .. LUAOBFUSACTOR_DECRYPT_STR_0("\101\144\225\72\54", "\49\69\212\128");
+					if (accountAge > 3000) then
+						daysTextLabel.TextColor3 = Color3.new(1, 0.75, 0.8);
+					elseif (accountAge > 2365) then
+						daysTextLabel.TextColor3 = Color3.new(0.6, 0.2, 0.8);
+					elseif (accountAge > 1365) then
+						daysTextLabel.TextColor3 = Color3.new(1, 1, 0);
+					elseif (accountAge > 365) then
+						daysTextLabel.TextColor3 = Color3.new(0, 0, 1);
+					else
+						daysTextLabel.TextColor3 = Color3.new(1, 0, 0);
+					end
+					daysTextLabel.Font = Enum.Font.SourceSansBold;
+					daysTextLabel.TextStrokeTransparency = 0.5;
+					daysTextLabel.TextStrokeColor3 = Color3.new(0, 0, 0);
+					daysTextLabel.TextSize = 20;
+					daysTextLabel.Parent = daysText;
+				end
+			end
+		end
+	end
+	espEnabled = Value;
+	if Value then
+		UpdatePlayerDays();
+	else
+		for _, otherPlayer in ipairs(game.Players:GetPlayers()) do
+			local daysText = otherPlayer:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\51\13\201\225\213\18\20\196", "\129\119\108\176\146"));
+			if daysText then
+				daysText:Destroy();
+			end
+		end
+	end
+end});
+local Tab = Window:CreateTab(LUAOBFUSACTOR_DECRYPT_STR_0("\8\202\11\200\53\1\14\40\220", "\124\92\175\103\173\69\110"), 4483362458);
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\239\57\14\50", "\87\161\88\99")]=LUAOBFUSACTOR_DECRYPT_STR_0("\34\245\238\216\177\223\49\31\185\190", "\67\114\153\143\172\215\176"),[LUAOBFUSACTOR_DECRYPT_STR_0("\157\163\226\2\188\163\237\5", "\110\222\194\142")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(221.47657775878906, 26.799846649169922, -208.41799926757812));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\57\216\22\172", "\193\119\185\123\201\50")]=LUAOBFUSACTOR_DECRYPT_STR_0("\71\4\248\50\9\118\13\122\72\171", "\127\23\104\153\70\111\25"),[LUAOBFUSACTOR_DECRYPT_STR_0("\42\6\170\163\41\45\180\184", "\211\105\103\198\207\75\76\215")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(180.80093383789062, 26.977828979492188, -207.95724487304688));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\224\166\189\234", "\214\174\199\208\143\30\108\218")]=LUAOBFUSACTOR_DECRYPT_STR_0("\33\136\10\190\163\89\202\68\81\215", "\41\113\228\107\202\197\54\184"),[LUAOBFUSACTOR_DECRYPT_STR_0("\89\140\52\80\120\140\59\87", "\60\26\237\88")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(140.62301635742188, 26.799846649169922, -208.29974365234375));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\246\43\121\227", "\206\184\74\20\134")]=LUAOBFUSACTOR_DECRYPT_STR_0("\8\232\239\165\245\69\42\193\120\176", "\172\88\132\142\209\147\42\88"),[LUAOBFUSACTOR_DECRYPT_STR_0("\164\139\192\1\52\244\189\140", "\222\231\234\172\109\86\149")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(100.86707305908203, 26.833974838256836, -207.85250854492188));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\195\238\205\29", "\120\141\143\160")]=LUAOBFUSACTOR_DECRYPT_STR_0("\112\160\183\70\70\163\164\95\0\249", "\50\32\204\214"),[LUAOBFUSACTOR_DECRYPT_STR_0("\165\70\57\117\177\16\133\76", "\113\230\39\85\25\211")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(61.505615234375, 26.046207427978516, -208.05682373046875));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\240\186\11\237", "\43\190\219\102\136\71\171\203")]=LUAOBFUSACTOR_DECRYPT_STR_0("\18\114\49\77\36\113\34\84\98\40", "\57\66\30\80"),[LUAOBFUSACTOR_DECRYPT_STR_0("\10\217\172\25\134\56\247\143", "\228\73\184\192\117\228\89\148")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(21.02322769165039, 26.33940887451172, -208.15704345703125));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\225\136\120\17", "\116\175\233\21")]=LUAOBFUSACTOR_DECRYPT_STR_0("\206\244\191\82\221\62\45\243\184\233", "\95\158\152\222\38\187\81"),[LUAOBFUSACTOR_DECRYPT_STR_0("\219\188\57\190\161\201\251\182", "\168\152\221\85\210\195")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-18.90589714050293, 26.762311935424805, -208.4942626953125));
+end});
+local Section = Tab:CreateSection(LUAOBFUSACTOR_DECRYPT_STR_0("\135\219\243\147\235\238\249\134\191\216\250\149\166\205", "\231\203\190\149"));
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\227\60\238\244", "\123\173\93\131\145\220\149")]=LUAOBFUSACTOR_DECRYPT_STR_0("\38\200\236\53\114\246\4\201\173\112\52\213\19\194\249", "\153\118\164\141\65\20"),[LUAOBFUSACTOR_DECRYPT_STR_0("\205\51\138\238\245\1\237\57", "\96\142\82\230\130\151")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(221.38113403320312, 26.967214584350586, -327.77911376953125));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\97\177\66\71", "\142\47\208\47\34\132")]=LUAOBFUSACTOR_DECRYPT_STR_0("\198\178\5\22\93\83\228\179\68\80\27\112\243\184\16", "\60\150\222\100\98\59"),[LUAOBFUSACTOR_DECRYPT_STR_0("\102\61\91\90\217\187\50\78", "\81\37\92\55\54\187\218")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(181.052978515625, 26.721370697021484, -327.0597839355469));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\46\69\160\50", "\225\96\36\205\87")]=LUAOBFUSACTOR_DECRYPT_STR_0("\217\170\67\109\122\64\27\228\230\17\57\80\74\15\253", "\105\137\198\34\25\28\47"),[LUAOBFUSACTOR_DECRYPT_STR_0("\50\168\77\122\194\16\170\74", "\160\113\201\33\22")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(140.8793182373047, 26.523544311523438, -326.21429443359375));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\250\89\161\162", "\205\180\56\204\199\201")]=LUAOBFUSACTOR_DECRYPT_STR_0("\179\210\61\12\133\209\46\21\195\138\124\52\134\216\40", "\120\227\190\92"),[LUAOBFUSACTOR_DECRYPT_STR_0("\30\93\19\119\33\93\218\233", "\130\93\60\127\27\67\60\185")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(101.48982238769531, 26.046207427978516, -327.08953857421875));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\102\51\53\75", "\29\40\82\88\46\128\35")]=LUAOBFUSACTOR_DECRYPT_STR_0("\11\73\213\9\7\183\41\72\148\72\65\148\62\67\192", "\216\91\37\180\125\97"),[LUAOBFUSACTOR_DECRYPT_STR_0("\6\119\16\207\85\36\117\23", "\55\69\22\124\163")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(20.794857025146484, 25.79054069519043, -327.5013122558594));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\86\210\81\237", "\148\24\179\60\136\191\17\48")]=LUAOBFUSACTOR_DECRYPT_STR_0("\130\38\248\180\240\189\56\244\224\160\242\6\252\166\226", "\150\210\74\153\192"),[LUAOBFUSACTOR_DECRYPT_STR_0("\192\201\52\134\119\123\183\232", "\212\131\168\88\234\21\26")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-18.6514835357666, 26.97749900817871, -326.1947021484375));
+end});
+local Button = Tab:CreateButton({[LUAOBFUSACTOR_DECRYPT_STR_0("\107\117\132\137", "\71\37\20\233\236\88")]=LUAOBFUSACTOR_DECRYPT_STR_0("\253\74\177\2\70\227\94\81\141\17\240\58\69\234\88", "\60\173\38\208\118\32\140\44"),[LUAOBFUSACTOR_DECRYPT_STR_0("\98\51\237\223\34\206\66\57", "\175\33\82\129\179\64")]=function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(18.90589714050293, 26.762311935424805, 208.4942626953125));
+end});
